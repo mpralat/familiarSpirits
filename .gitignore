@@ -72,3 +72,60 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# === JetBrains Rider / VSCode / VS ===
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Unity Generated ===
+*.unitypackage
+*.pidb.meta
+*.sln.meta
+*.csproj.meta
+*.mp3.meta
+*.wav.meta
+*.cginc.meta
+*.mat.meta
+*.shader.meta
+*.controller.meta
+
+# === Exclude build artifacts ===
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.pbxproj
+*.xcuserstate
+*.xcuserdata/
+
+# === Logs & Crash Reports ===
+*.log
+*.crash
+
+# === Package Manager Cache ===
+Packages/packages-lock.json
+
+# === Collab & Plastic SCM ===
+.collabignore
+*.plastic
+.plastic/
+.ignore
+PlasticSCM/
+
+# === Unity Cloud Diagnostics ===
+*.cloudDiagnostics
+
+# === Visual Studio Code Workspace ===
+*.code-workspace

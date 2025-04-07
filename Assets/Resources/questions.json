@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "order": 1,
+      "text": "Ulubiony kolor?",
+      "answers": [
+        {
+          "text": "Czerwony",
+          "firePoints": 5,
+          "waterPoints": 0,
+          "earthPoints": 0
+        },
+        {
+          "text": "Niebieski",
+          "firePoints": 0,
+          "waterPoints": 5,
+          "earthPoints": 0
+        },
+        {
+          "text": "Brązowy",
+          "firePoints": 0,
+          "waterPoints": 0,
+          "earthPoints": 5
+        },
+        {
+          "text": "Każdy",
+          "firePoints": 1,
+          "waterPoints": 1,
+          "earthPoints": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "text": "Jak reagujesz w sytuacji kryzysowej?",
+      "answers": [
+        {
+          "text": "Szybko panikuję",
+          "firePoints": 4,
+          "waterPoints": 1,
+          "earthPoints": 0
+        },
+        {
+          "text": "Spokojnie powolutku",
+          "firePoints": 0,
+          "waterPoints": 4,
+          "earthPoints": 1
+        },
+        {
+          "text": "Logiczne myślenie",
+          "firePoints": 1,
+          "waterPoints": 0,
+          "earthPoints": 4
+        },
+        {
+          "text": "Totalny shut down",
+          "firePoints": 0,
+          "waterPoints": 1,
+          "earthPoints": 2
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "text": "Co lubisz robić w wolnym czasie?",
+      "answers": [
+        {
+          "text": "W sumie nic",
+          "firePoints": 0,
+          "waterPoints": 1,
+          "earthPoints": 3
+        },
+        {
+          "text": "Pływać",
+          "firePoints": 0,
+          "waterPoints": 5,
+          "earthPoints": 0
+        },
+        {
+          "text": "Robić naleśniki",
+          "firePoints": 4,
+          "waterPoints": 0,
+          "earthPoints": 1
+        },
+        {
+          "text": "Wszystko",
+          "firePoints": 2,
+          "waterPoints": 1,
+          "earthPoints": 2
+        }
+      ]
+    }
+  ]
+}

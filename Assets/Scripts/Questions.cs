@@ -1,6 +1,7 @@
 using UnityEngine;
 
-[System.Serializable]
+
+    [System.Serializable]
 public class Question
 {
     public int order;
@@ -22,3 +23,5 @@ public class QuestionList
 {
     public Question[] questions;
 }
+
+

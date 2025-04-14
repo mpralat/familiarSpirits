@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI questionCounter;
     private List<Question> questions;
-    
     // Result Panel Stuff
     public GameObject resultPanel;
     public Image resultImage;

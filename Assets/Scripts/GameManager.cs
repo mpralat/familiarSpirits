@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     {
         currentQuestionIndex = 0;
         resultPanel.SetActive(false);
-        scoreManager.ResetPoints();
+		scoreManager.Start();
         LoadQuestions();
         ShowQuestion();
     }
@@ -39,12 +39,6 @@ public class GameManager : MonoBehaviour
         QuestionList loaded = JsonUtility.FromJson<QuestionList>(questionsJson.text);
         questions = new List<Question>(loaded.questions);
         questions.Sort((a, b) => a.order.CompareTo(b.order));
-
-        Debug.Log($"Loaded {questions.Count} questions!");
-        for(int i = 0; i < questions.Count; i++)
-        {
-            Debug.Log(questions[i].text);
-        }
     }
 
     void ShowQuestion()
@@ -74,7 +68,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log($"Selected answer! Current index: {currentQuestionIndex}. Index: {index}");
         Answer answer = questions[currentQuestionIndex].answers[index];
-        scoreManager.AddPoints(answer.firePoints, answer.waterPoints, answer.earthPoints);
+        scoreManager.AddPoints(answer.firePoints, answer.waterPoints, answer.earthPoints, answer.airPoints);
         
         currentQuestionIndex++;
         ShowQuestion();
@@ -83,9 +77,9 @@ public class GameManager : MonoBehaviour
     void ShowResult()
     {
         resultPanel.SetActive(true);
-        string resultImageName = scoreManager.GetFileName();
-        resultText.text = $"Twój żywioł to: {resultImageName}";
-        resultImage.sprite = Resources.Load<Sprite>($"Spirits/{resultImageName}");
+        Spirit resultSpirit = scoreManager.GetSpirit();
+        resultText.text = $"Twój chowaniec to: {resultSpirit.Name}";
+        //resultImage.sprite = Resources.Load<Sprite>($"Spirits/{resultImageName}");
     }
     
     public void ResetGame()

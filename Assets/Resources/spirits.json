@@ -1,0 +1,130 @@
+{
+  "spirits": [
+    {
+      "Name": "Plonek",
+      "Element": "Water",
+      "MinPoints": 4,
+      "MaxPoints": 6,
+      "Description":"Lorem ipsum"
+    },
+    {
+      "Name": "Grzenia",
+      "Element": "Water",
+      "MinPoints": 11,
+      "MaxPoints": 13,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Bzionek",
+      "Element": "Water",
+      "MinPoints": 9,
+      "MaxPoints": 10,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Boże siedleczko",
+      "Element": "Water",
+      "MinPoints": 7,
+      "MaxPoints": 8,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Gumiennik",
+      "Element": "Fire",
+      "MinPoints": 6,
+      "MaxPoints": 7,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Inkluz",
+      "Element": "Fire",
+      "MinPoints": 10,
+      "MaxPoints": 11,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Kłobuk",
+      "Element": "Fire",
+      "MinPoints": 4,
+      "MaxPoints": 5,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Złydnie",
+      "Element": "Fire",
+      "MinPoints": 12,
+      "MaxPoints": 13,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Ankluz",
+      "Element": "Fire",
+      "MinPoints": 8,
+      "MaxPoints": 9,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Trach",
+      "Element": "Air",
+      "MinPoints": 9,
+      "MaxPoints": 10,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Bożątko",
+      "Element": "Air",
+      "MinPoints": 7,
+      "MaxPoints": 8,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Bannik",
+      "Element": "Air",
+      "MinPoints": 4,
+      "MaxPoints": 6,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Płanetnik",
+      "Element": "Air",
+      "MinPoints": 11,
+      "MaxPoints": 13,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Przestęp",
+      "Element": "Earth",
+      "MinPoints": 4,
+      "MaxPoints": 5,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Chowaniec",
+      "Element": "Earth",
+      "MinPoints": 6,
+      "MaxPoints": 7,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Domownik",
+      "Element": "Earth",
+      "MinPoints": 12,
+      "MaxPoints": 13,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Skarbnik",
+      "Element": "Earth",
+      "MinPoints": 10,
+      "MaxPoints": 11,
+      "Description": "Lorem ipsum"
+    },
+    {
+      "Name": "Kłobuk",
+      "Element": "Earth",
+      "MinPoints": 8,
+      "MaxPoints": 9,
+      "Description": "Lorem ipsum"
+    }
+  ]
+}

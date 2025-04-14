@@ -15,6 +15,7 @@ public class Answer
     public int firePoints;
     public int waterPoints;
     public int earthPoints;
+	public int airPoints;
 }
 
 [System.Serializable]

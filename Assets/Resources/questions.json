@@ -8,25 +8,29 @@
           "text": "Czerwony",
           "firePoints": 5,
           "waterPoints": 0,
-          "earthPoints": 0
+          "earthPoints": 0,
+          "airPoints": 1
         },
         {
           "text": "Niebieski",
           "firePoints": 0,
           "waterPoints": 5,
-          "earthPoints": 0
+          "earthPoints": 0,
+          "airPoints": 1
         },
         {
           "text": "Brązowy",
           "firePoints": 0,
           "waterPoints": 0,
-          "earthPoints": 5
+          "earthPoints": 5,
+          "airPoints": 1
         },
         {
           "text": "Każdy",
           "firePoints": 1,
           "waterPoints": 1,
-          "earthPoints": 1
+          "earthPoints": 1,
+          "airPoints": 1
         }
       ]
     },
@@ -38,25 +42,29 @@
           "text": "Szybko panikuję",
           "firePoints": 4,
           "waterPoints": 1,
-          "earthPoints": 0
+          "earthPoints": 0,
+          "airPoints": 1
         },
         {
           "text": "Spokojnie powolutku",
           "firePoints": 0,
           "waterPoints": 4,
-          "earthPoints": 1
+          "earthPoints": 1,
+          "airPoints": 1
         },
         {
           "text": "Logiczne myślenie",
           "firePoints": 1,
           "waterPoints": 0,
-          "earthPoints": 4
+          "earthPoints": 4,
+          "airPoints": 1
         },
         {
           "text": "Totalny shut down",
           "firePoints": 0,
           "waterPoints": 1,
-          "earthPoints": 2
+          "earthPoints": 2,
+          "airPoints": 1
         }
       ]
     },
@@ -68,25 +76,29 @@
           "text": "W sumie nic",
           "firePoints": 0,
           "waterPoints": 1,
-          "earthPoints": 3
+          "earthPoints": 3,
+          "airPoints": 1
         },
         {
           "text": "Pływać",
           "firePoints": 0,
           "waterPoints": 5,
-          "earthPoints": 0
+          "earthPoints": 0,
+          "airPoints": 1
         },
         {
           "text": "Robić naleśniki",
           "firePoints": 4,
           "waterPoints": 0,
-          "earthPoints": 1
+          "earthPoints": 1,
+          "airPoints": 1
         },
         {
           "text": "Wszystko",
           "firePoints": 2,
           "waterPoints": 1,
-          "earthPoints": 2
+          "earthPoints": 2,
+          "airPoints": 1
         }
       ]
     }

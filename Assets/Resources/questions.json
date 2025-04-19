@@ -2,105 +2,819 @@
   "questions": [
     {
       "order": 1,
-      "text": "Ulubiony kolor?",
+      "text": "Wracasz po ciężkim dniu studiowania dawnych ksiąg do domu. Co robisz najpierw?",
       "answers": [
         {
-          "text": "Czerwony",
-          "firePoints": 5,
+          "text": "Ogarnia mnie zbyt duże zmęczenie, idę prosto spać.",
+          "firePoints": 0,
           "waterPoints": 0,
           "earthPoints": 0,
           "airPoints": 1
         },
         {
-          "text": "Niebieski",
+          "text": "Przygotowuję sobie gorącą kąpiel.",
           "firePoints": 0,
-          "waterPoints": 5,
-          "earthPoints": 0,
-          "airPoints": 1
-        },
-        {
-          "text": "Brązowy",
-          "firePoints": 0,
-          "waterPoints": 0,
-          "earthPoints": 5,
-          "airPoints": 1
-        },
-        {
-          "text": "Każdy",
-          "firePoints": 1,
           "waterPoints": 1,
+          "earthPoints": 0,
+          "airPoints": 0
+        },
+        {
+          "text": "Zabieram się za czytanie ulubionej książki.",
+          "firePoints": 0,
+          "waterPoints": 0,
           "earthPoints": 1,
-          "airPoints": 1
+          "airPoints": 0
+        },
+        {
+          "text": "Udaję się do karczmy.",
+          "firePoints": 0,
+          "waterPoints": 0,
+          "earthPoints": 0,
+          "airPoints": 0
         }
       ]
     },
     {
       "order": 2,
-      "text": "Jak reagujesz w sytuacji kryzysowej?",
+      "text": "We wsi niedługo rozpocznie się hucznie świętowany Festiwal Kalarepy.",
       "answers": [
         {
-          "text": "Szybko panikuję",
-          "firePoints": 4,
-          "waterPoints": 1,
+          "text": "Tylko nie to, szukam wymówki żeby tylko nie wychodzić z domu. Nienawidzę takich wydarzeń.",
+          "firePoints": 0,
+          "waterPoints": 0,
           "earthPoints": 0,
           "airPoints": 1
         },
         {
-          "text": "Spokojnie powolutku",
-          "firePoints": 0,
-          "waterPoints": 4,
-          "earthPoints": 1,
-          "airPoints": 1
-        },
-        {
-          "text": "Logiczne myślenie",
+          "text": "To będzie świetna okazja żeby zaprezentować się na scenie.",
           "firePoints": 1,
           "waterPoints": 0,
-          "earthPoints": 4,
-          "airPoints": 1
+          "earthPoints": 0,
+          "airPoints": 0
         },
         {
-          "text": "Totalny shut down",
+          "text": "Może pomogę w dekoracjach. Mój ogród jest pełen pięknych roślin które mogę wykorzystać do przygotowania ozdób.",
           "firePoints": 0,
           "waterPoints": 1,
-          "earthPoints": 2,
-          "airPoints": 1
+          "earthPoints": 0,
+          "airPoints": 0
+        },
+        {
+          "text": "Nie mogę się doczekać żeby spotkać się z przyjaciółmi. Będziemy się razem świetnie bawić.",
+          "firePoints": 0,
+          "waterPoints": 0,
+          "earthPoints": 1,
+          "airPoints": 0
         }
       ]
     },
     {
       "order": 3,
-      "text": "Co lubisz robić w wolnym czasie?",
+      "text": "Sąsiad prosi mnie o dołożenie mu się 5 srebrników na nowy pług.",
       "answers": [
         {
-          "text": "W sumie nic",
+          "text": "5 srebrników?! Przecież ja tyle nie mam!",
           "firePoints": 0,
-          "waterPoints": 1,
-          "earthPoints": 3,
-          "airPoints": 1
-        },
-        {
-          "text": "Pływać",
-          "firePoints": 0,
-          "waterPoints": 5,
-          "earthPoints": 0,
-          "airPoints": 1
-        },
-        {
-          "text": "Robić naleśniki",
-          "firePoints": 4,
           "waterPoints": 0,
           "earthPoints": 1,
-          "airPoints": 1
+          "airPoints": 0
         },
         {
-          "text": "Wszystko",
-          "firePoints": 2,
+          "text": "On chce moje pieniądze? Nic mu nie dam!",
+          "firePoints": 1,
+          "waterPoints": 0,
+          "earthPoints": 0,
+          "airPoints": 0
+        },
+        {
+          "text": "Jasne, nie ma problemu. Mogę mu się dołożyć nawet więcej. Na pewno mi odda kiedy będzie mógł.",
+          "firePoints": 0,
           "waterPoints": 1,
-          "earthPoints": 2,
+          "earthPoints": 0,
+          "airPoints": 0
+        },
+        {
+          "text": "Dołożę się, ale kiedy już go kupi to mu go ukradnę.",
+          "firePoints": 0,
+          "waterPoints": 0,
+          "earthPoints": 0,
           "airPoints": 1
         }
       ]
+    },
+    {
+  "order": 4,
+  "text":  "Idealnie spędzony dzień upłynąłby mi na:",
+  "answers": [
+    {
+      "text": "Siedzeniu samotnie przy palenisku i dobrej lekturze.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Na niesamowitej przygodzie wypełnionej zabijaniem potworów i znajdowaniem skarbów", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Spotkaniu z rodziną i zabawą z dziećmi.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Psotach i dokuczaniu moim znajomym.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
     }
+  ]
+},
+{
+  "order": 5,
+  "text":  "Przegrywasz w grze w kości. Co robisz?",
+  "answers": [
+    {
+      "text": "Oszukuję. Nigdy nie przegrywam w żadnej grze, nawet jeśli mam wygrać nieuczciwie.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Gratuluję mojemu przeciwnikowi, może poszczęści mi się następnym razem.", 
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Wyzywam go na pojedynek, jeśli nie pokonam go w takich dziecinnych grach to pokonam go w prawdziwej walce na śmierć i życie!",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Odchodzę i przeklinam go, jak śmiał mnie tak ośmieszyć.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 6,
+  "text":  "Wybierając się w podróż zawsze pamiętam o moim niezastąpionym talizmanie. Jest to oczywiście:",
+  "answers": [
+    {
+      "text": "Czerwona nitka zawiązana wokół nadgarstka.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Woreczek soli.", 
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Pukiel włosów miłości mojego życia.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Wysuszona kora bzu.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 7,
+  "text":  "Obca staruszka zatrzymuje mnie na ulicy twierdząc, że zna moją przyszłość:",
+  "answers": [
+    {
+      "text": "Słucham uważnie całej przepowiedni, to może być znak od losu.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Czekam cierpliwie aż skończy swój wywód, ale nie zastanawiam się nad jej słowami.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Udaję bardzo zajętego człowieka w nadziei, że mnie zostawi. ",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "To na pewno wiedźma! Uciekam w stronę najbliższego kościoła.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 8,
+  "text":  "Miewam ostatnio bardzo dziwne koszmary. Śni mi się:",
+  "answers": [
+    {
+      "text": "Brygada małych ludków buszujących w kuchennych szafkach.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Włochaty stwór siedzący w nogach mojego łóżka.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Ogromny wąż mieszkający pod strzechą.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Kobiecy śpiew dobiegający z lasu.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 9,
+  "text":  "Wracając nocą z karczmy, tracę orientację w terenie. Jak znajdę drogę do domu?",
+  "answers": [
+    {
+      "text": "Wypatruję świateł mojej wioski i kieruję się w ich stronę.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Proszę o pomoc pierwszą napotkaną osobę.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Wracam po moich śladach w nadziei, że wrócę na właściwą trasę.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Nie ma sensu szukać drogi po ciemku, kładę się wygodnie pod najbliższym drzewem i zasypiam.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 10,
+  "text":  "W moim wianku na Noc Kupały nie może zabraknąć:",
+  "answers": [
+    {
+      "text": "Maków",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Chabrów", 
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Stokrotek",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Słoneczników",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 11,
+  "text":  "Dowiadujesz się, że zamożna opiekunka sierocińca jest bruxą. Budynek nigdy nie był w lepszym stanie, dzieci żyją w dostatku i miłości, ale wampirzyca pije ich krew tak, aby nie zabijać nikogo. Przynajmniej na razie. Co robisz?",
+  "answers": [
+    {
+      "text": "Próbuje znaleźć kompromis między potrzebami bruxy a oszczędzeniem dzieci. Może da się znaleźć jakiś zamiennik dla jej potrzeb.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Nie moje dzieci, nie mój problem.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Kto wie, co ona robi z dziećmi, a nóż to kolejne wampirzątka. Najłatwiej będzie wszystkich zabić.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Interes. Ja dostarczam dzieci i dostaję procent za milczenie.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 12,
+  "text":  "Jak będziesz zarabiać w średniowiecznym świecie fantasy?",
+  "answers": [
+    {
+      "text": "Prosto, uczciwie i tak żebym mógł się spełniać.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "W lukratywnym zawodzie, wymagającym wyższego wykształcenia, żeby mi niczego nie brakowało.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Wszystko zależy od tego, czy muszę płacić podatki.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Zabijałbym krowy innych mieszkańców, by następnie sprzedawać ich skórę w nieskończoność, licząc że nie przyjdzie po mnie Czart.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 13,
+  "text":  "Bard zamierza napisać balladę o twoich zasługach w wielkiej bitwie. Jak chcesz, żeby ciebie przedstawił?",
+  "answers": [
+    {
+      "text": "Wszystko zgodnie z prawdą.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Jako największego herosa, bohatera, zbawiciela świata i wszechrzeczy.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Najlepiej niech nie przedstawia wcale i zostawi w spokoju.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Nieważne jak, ale oczekuję opłaty od każdego zaśpiewania.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 14,
+  "text":  "W okolicy, w której mieszkasz grasuje ostatni z jego gatunku Złoty Smok. Król obiecuje horrendalną nagrodę za jego ubicie i organizuje ekspedycję. Co robisz?",
+  "answers": [
+    {
+      "text": "Jest nagroda, więc smok zostanie ubity.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Smoki są duże, ja duży nie jestem, więc jak mu tak bardzo zależy to niech wyśle wojsko, bo ja się przeprowadzę.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Organizuje protest i zawiadamiam okolicznych druidów, by bronili natury i różnorodności gatunkowej.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Idę na ekspedycję, by oswoić smoka. Nikt się nim lepiej nie zaopiekuje niż ja.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 15,
+  "text":  "Udał ci się zdjąć klątwę ciążącą na wsi, ale mieszkańcy cię oszukali, bo nie mają pieniędzy, by ci zapłacić. Co robisz?",
+  "answers": [
+    {
+      "text": "Biorę równowartość w zastaw.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Okradam i morduje, bo za darmo nie pracuje.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Powołuje się na prawo niespodzianki.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Potrzebującym trzeba pomagać niezależnie od zapłaty, więc odchodzę, licząc że dobro wróci.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 16,
+  "text":  "Podczas spaceru podbiega do ciebie młoda dziewczyna, która krzyczy przerażona, że jej siostrę napadł potwór. Co robisz?",
+  "answers": [
+    {
+      "text": "Postanawiasz jej pomóc i idziesz z nią w miejsce zdarzenia.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Wyciągasz miecz i podajesz jej życząc powodzenia, po czym kontynuujesz drogę.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Udajesz, że nic nie słyszałeś i ignorujesz ją.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Niepewnie idziesz za nią w miejsce zdarzenia pozostając w tyle.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 17,
+  "text":  "Budzisz się pewnego pięknego poranka i decydujesz się na podróż do ...",
+  "answers": [
+    {
+      "text": "Zaczarowanego lasu.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Nad jezioro, by łowić ryby.", 
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Sąsiedniej wioski, by odwiedzić karczmę.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Owocowego sadu, by ukraść trochę jabłek.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    }
+  ]
+},
+{
+  "order": 18,
+  "text":  "Na każdą udaną wyprawę trzeba zabrać ze sobą ekwipunek. Swoje rzeczy przechowujesz w:",
+  "answers": [
+    {
+      "text": "Jedwabnej sakiewce z wygodnym paskiem.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Ogromnym plecaku, z dużą ilością kieszeni.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Reklamówce z ulubionego sklepu.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Po co komu jakieś torby! Niesiesz wszystko w rękach.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 19,
+  "text":  "Podczas spaceru znajdujesz plamę krwi. Zauważasz kawałek dalej trupa wraz z pochylającą się nad nim bestią. Jak się z nią rozprawiasz?",
+  "answers": [
+    {
+      "text": "Rozprawiam? Oczywiście, że uciekam! To nie mój problem.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Wypijam kilka eliksirów, które mam przy sobie i atakuję ją bezpośrednio mieczem. Nigdy nie odmówię chwały i trofeum!", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Taktyka jest najważniejsza. Próbuje odwrócić jej uwagę rzucając kamień w niedaleki krzew. Gdy ta odwraca się, celuje w głowę kuszą i strzelam.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Próbuję wystraszyć bestię i pochować ciało, żeby dusza nieboszczyka mogła odejść w pokoju",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 20,
+  "text":  "Stoisz przed lustrem, a jego powierzchnia mieni się i rozmywa twoje oblicze. Zniekształcony obraz uwydatnia jedną cechę, która ciebie charakteryzuje. Co widzisz?",
+  "answers": [
+    {
+      "text": "Odwagę, nieustraszonego niedźwiedzia",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Pragnienie wolności w postaci majestatycznego jelenia.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Lojalność, która przybiera kształt wilka.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Wrażliwość, o obliczu zwinnego królika",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 21,
+  "text":  "Znajdujesz skarb w opuszczonym lochu. Masz nadzieję, że w środku znajduje się:",
+  "answers": [
+    {
+      "text": "Sztabka złota! Dzięki temu kupię posiadłość w jakiejś malowniczej okolicy.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Talizman nieśmiertelności - przyda się podczas kolejnej wyprawy.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Buty szybkości, dzięki którym przestanę w końcu się spóźniać.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Tajemnicze księgi, które pomogą mi w zgłębianiu wiedzy i arkanów magii.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 22,
+  "text":  "Kim chcesz być w przyszłości?",
+  "answers": [
+    {
+      "text": "Oczywiście chcę zostać łowcą przygód! Mogę wyruszyć w podróż choćby zaraz.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Bycie wiedźminem to moje powołanie! Dlatego zawsze mam przy sobie srebrny miecz.", 
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Pragnę władać magią - chcę ją wykorzystywać dla dobra ludzi i innych istot.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Marzy mi się spokojny żywot. Czasem myślę o spokojnej uprawie roli lub zostaniu skrybą.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 23,
+  "text":  "Co robisz po całym dniu pracy i obowiązków?",
+  "answers": [
+    {
+      "text": "Przede wszystkim przygotowuję sobie smaczny posiłek - bez tego nie będę mieć sił do dalszej pracy!",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Odpoczywam na łonie natury, tam gdzie cisza i spokój.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Odpoczynek? Jaki odpoczynek? Wciąż jestem w pełni sił! Jest jeszcze tyle rzeczy do zrobienia.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Spędzam czas z moimi bliskimi. To dla mnie bardzo ważne.",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+},
+{
+  "order": 24,
+  "text":  "Urządzasz swój nowy pokój. Nie może w nim zabraknąć:",
+  "answers": [
+    {
+      "text": "Wygodnego łóżka! Im większe, tym lepsze.",
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 1,
+      "airPoints": 0
+    },
+    {
+      "text": "Pięknych witraży! Dekoracje są najważniejsze.", 
+      "firePoints": 0,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 1
+    },
+    {
+      "text": "Stołu, pióra i pergaminu. Potrzebuję miejsca, w którym mogę zapisywać moje niezliczone pomysły.",
+      "firePoints": 1,
+      "waterPoints": 0,
+      "earthPoints": 0,
+      "airPoints": 0
+    },
+    {
+      "text": "Dodatkowego fotela dla odwiedzających mnie przyjaciół. Zawsze znajdą u mnie wolne miejsce!",
+      "firePoints": 0,
+      "waterPoints": 1,
+      "earthPoints": 0,
+      "airPoints": 0
+    }
+  ]
+}
   ]
 }

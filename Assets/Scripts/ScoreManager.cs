@@ -7,6 +7,7 @@ public class ScoreManager
     private int waterScore = 0;
     private int earthScore = 0;
     private int airScore = 0;
+	private string selectedColor = "";
 
     private Spirit[] fireSpirits;
     private Spirit[] airSpirits;
@@ -33,39 +34,78 @@ public class ScoreManager
         waterScore = 0;
         earthScore = 0;
         airScore = 0;
+		selectedColor = "";
     }
 
     public Spirit GetSpirit()
     {
         Debug.Log($"RESULT: Fire: {fireScore}, Water: {waterScore}, Earth: {earthScore}, Air: {airScore}");
-        
-		// TODO - real logic for choosing the right spirit should come here
-		// for now, just choose a random spirit of the correct element
-		int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
-		
-		Spirit[] selectedArray = null;
 
-    	if (maxScore == fireScore)
-    	{
-       	 	selectedArray = fireSpirits;
-    	}
-    	else if (maxScore == waterScore)
-    	{
-       		selectedArray = waterSpirits;
-    	}
-    	else if (maxScore == earthScore)
-    	{
-        	selectedArray = earthSpirits;
-    	}
-    	else if (maxScore == airScore)
-    	{
-        	selectedArray = airSpirits;
-    	}
-		
-		int randomIndex = UnityEngine.Random.Range(0, selectedArray.Length);
-    	return selectedArray[randomIndex];
+        int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
+
+        // Collect tied elements
+        string[] tiedElements = new string[4];
+        int tieCount = 0;
+
+        if (fireScore == maxScore) tiedElements[tieCount++] = "Fire";
+        if (waterScore == maxScore) tiedElements[tieCount++] = "Water";
+        if (earthScore == maxScore) tiedElements[tieCount++] = "Earth";
+        if (airScore == maxScore) tiedElements[tieCount++] = "Air";
+
+        // Randomly pick one from ties
+        string chosenElement = tiedElements[UnityEngine.Random.Range(0, tieCount)];
+        Debug.Log($"Tie resolved randomly � selected: {chosenElement}");
+
+        Spirit[] selectedArray = null;
+        int elementScore = 0;
+
+        if (chosenElement == "Fire")
+        {
+            selectedArray = fireSpirits;
+            elementScore = fireScore;
+        }
+        else if (chosenElement == "Water")
+        {
+            selectedArray = waterSpirits;
+            elementScore = waterScore;
+        }
+        else if (chosenElement == "Earth")
+        {
+            selectedArray = earthSpirits;
+            elementScore = earthScore;
+        }
+        else if (chosenElement == "Air")
+        {
+            selectedArray = airSpirits;
+            elementScore = airScore;
+        }
+
+        // Find spirits matching the score threshold
+        var matchingSpirits = selectedArray
+            .Where(spirit => elementScore >= spirit.MinPoints && elementScore <= spirit.MaxPoints)
+            .ToArray();
+
+        if (matchingSpirits.Length == 0)
+        {
+            Debug.LogWarning($"No spirit found for {chosenElement} with score {elementScore}");
+            return null;
+        }
+
+        int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
+        // return matchingSpirits[randomIndex];
+		return airSpirits[3];
     }
+	
+	public void SetColor(string color) 
+	{
+		selectedColor = color;
+	}
 
+	public string GetFileName(string spiritName)
+	{
+		return $"Spirits/{spiritName}/{selectedColor}";
+	}
+	
     private void LoadSpirits()
     {
 		TextAsset jsonText = Resources.Load<TextAsset>("spirits");

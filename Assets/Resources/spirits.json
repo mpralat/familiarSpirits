@@ -29,21 +29,21 @@
       "Description": "Lorem ipsum"
     },
     {
-      "Name": "Gumiennik",
+      "Name": "Ankluz",
       "Element": "Fire",
       "MinPoints": 6,
       "MaxPoints": 7,
       "Description": "Lorem ipsum"
     },
     {
-      "Name": "Inkluz",
+      "Name": "Nocnica",
       "Element": "Fire",
       "MinPoints": 10,
       "MaxPoints": 11,
       "Description": "Lorem ipsum"
     },
     {
-      "Name": "Kłobuk",
+      "Name": "Gumiennik",
       "Element": "Fire",
       "MinPoints": 4,
       "MaxPoints": 5,
@@ -57,7 +57,7 @@
       "Description": "Lorem ipsum"
     },
     {
-      "Name": "Ankluz",
+      "Name": "Inkluz",
       "Element": "Fire",
       "MinPoints": 8,
       "MaxPoints": 9,

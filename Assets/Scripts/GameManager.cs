@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private const int QUESTIONS_PER_PLAYER = 10;
+    private const int QUESTIONS_PER_PLAYER = 13;
     
     // Main Panel stuff
     public TextMeshProUGUI questionText;
@@ -25,16 +25,6 @@ public class GameManager : MonoBehaviour
     
     private int currentQuestionIndex = 0;
     private ScoreManager scoreManager = new ScoreManager();
-    
-    public ColorQuestion sampleColorQuestion = new ColorQuestion {
-        text = "Jaka wersja kolorystyczna wariacie?",
-        answers = new ColorAnswer[] {
-            new ColorAnswer { text = "Niebieski", color = "blue" },
-            new ColorAnswer { text = "Zielony", color = "green" },
-            new ColorAnswer { text = "Czerwony", color = "red" },
-            new ColorAnswer { text = "Inny", color = "other" }
-        }
-    };
     
     void Start()
     {
@@ -63,14 +53,14 @@ public class GameManager : MonoBehaviour
     {
         if (currentQuestionIndex >= questions.Count)
         {
-            ShowColorQuestion();
+         	scoreManager.CalculateSpirit();
+			ShowColorQuestion();
             return;
         }
 
         questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
 
         Question q = questions[currentQuestionIndex];
-        Debug.Log($"Current question: {q.text}");
         questionText.text = q.text;
         
         for (int i = 0; i < answerButtons.Length; i++)
@@ -82,45 +72,57 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void ShowColorQuestion()
-    {
-        // last question should be a color question
-        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
-        
-        questionText.text = sampleColorQuestion.text;
-        
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            int index = i;
-            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = sampleColorQuestion.answers[index].text;
-            answerButtons[index].onClick.RemoveAllListeners();
-            answerButtons[index].onClick.AddListener(() => OnColorAnswerSelected(index));
-        }
-        return;
-    }
-
     void OnAnswerSelected(int index)
     {
-        Debug.Log($"Selected answer! Current index: {currentQuestionIndex}. Index: {index}");
         Answer answer = questions[currentQuestionIndex].answers[index];
         scoreManager.AddPoints(answer.firePoints, answer.waterPoints, answer.earthPoints, answer.airPoints);
         
         currentQuestionIndex++;
         ShowQuestion();
     }
+
+	void ShowColorQuestion()
+    {
+        // last question should be a color question
+        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
+        
+		Spirit spirit = scoreManager.CurrentSpirit;
+		if (spirit == null)
+		{
+    		return;
+		} else {
+			ColorQuestion colorQuestion = spirit.ColorQuestion;
+        	questionText.text = colorQuestion.text;
+        
+        	for (int i = 0; i < answerButtons.Length; i++)
+            {
+                int index = i;
+                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = colorQuestion.answers[index].text;
+                answerButtons[index].onClick.RemoveAllListeners();
+                answerButtons[index].onClick.AddListener(() => OnColorAnswerSelected(index));
+            }
+		}
+        return;
+    }
     
     void OnColorAnswerSelected(int index)
     {
-        ColorAnswer answer = sampleColorQuestion.answers[index];
-        scoreManager.SetColor(answer.color);
-        Debug.Log($"{answer.color}");
-        ShowResult();
+		Spirit spirit = scoreManager.CurrentSpirit;
+		if (spirit == null)
+		{
+    		return;
+		} else {
+			ColorAnswer answer = spirit.ColorQuestion.answers[index];
+        	scoreManager.SetColor(answer.color);
+        	Debug.Log($"{answer.color}");
+        	ShowResult();
+		}
     }
 
     void ShowResult()
-    {
-        resultPanel.SetActive(true);
-        Spirit resultSpirit = scoreManager.GetSpirit();
+    {	
+		Spirit resultSpirit = scoreManager.CurrentSpirit;
+		resultPanel.SetActive(true);
         resultText.text = $"Twój chowaniec to: {resultSpirit.Name}";
         string resultImagePath = scoreManager.GetFileName(resultSpirit.Name); 
         resultImage.sprite = Resources.Load<Sprite>(resultImagePath);

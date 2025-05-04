@@ -2,129 +2,525 @@
   "spirits": [
     {
       "Name": "Plonek",
-      "Element": "Water",
+      "Element": 0,
+      "ElementName":"Water",
       "MinPoints": 4,
       "MaxPoints": 6,
-      "Description":"Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Grzenia",
-      "Element": "Water",
+      "Element": 0,
+      "ElementName": "Water",
       "MinPoints": 11,
       "MaxPoints": 13,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Bzionek",
-      "Element": "Water",
+      "Element": 0,
+      "ElementName": "Water",
       "MinPoints": 9,
       "MaxPoints": 10,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Boże siedleczko",
-      "Element": "Water",
+      "Element": 0,
+      "ElementName": "Water",
       "MinPoints": 7,
       "MaxPoints": 8,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Ankluz",
-      "Element": "Fire",
+      "Element": 1,
+      "ElementName": "Fire",
       "MinPoints": 6,
       "MaxPoints": 7,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Nocnica",
-      "Element": "Fire",
+      "Element": 1,
+      "ElementName": "Fire",
       "MinPoints": 10,
       "MaxPoints": 11,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Gumiennik",
-      "Element": "Fire",
+      "Element": 1,
+      "ElementName": "Fire",
       "MinPoints": 4,
       "MaxPoints": 5,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Złydnie",
-      "Element": "Fire",
+      "Element": 1,
+      "ElementName": "Fire",
       "MinPoints": 12,
       "MaxPoints": 13,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Inkluz",
-      "Element": "Fire",
+      "Element": 1,
+      "ElementName": "Fire",
       "MinPoints": 8,
       "MaxPoints": 9,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Trach",
-      "Element": "Air",
+      "Element": 2,
+      "ElementName": "Air",
       "MinPoints": 9,
       "MaxPoints": 10,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Bożątko",
-      "Element": "Air",
+      "Element": 2,
+      "ElementName": "Air",
       "MinPoints": 7,
       "MaxPoints": 8,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Bannik",
-      "Element": "Air",
+      "Element": 2,
+      "ElementName": "Air",
       "MinPoints": 4,
       "MaxPoints": 6,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Płanetnik",
-      "Element": "Air",
+      "Element": 2,
+      "ElementName": "Air",
       "MinPoints": 11,
       "MaxPoints": 13,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Przestęp",
-      "Element": "Earth",
+      "Element": 3,
+      "ElementName":"Earth",
       "MinPoints": 4,
       "MaxPoints": 5,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Chowaniec",
-      "Element": "Earth",
+      "Element": 3,
+      "ElementName": "Earth",
       "MinPoints": 6,
       "MaxPoints": 7,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Domownik",
-      "Element": "Earth",
+      "Element": 3,
+      "ElementName": "Earth",
       "MinPoints": 12,
       "MaxPoints": 13,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Skarbnik",
-      "Element": "Earth",
+      "Element": 3,
+      "ElementName": "Earth",
       "MinPoints": 10,
       "MaxPoints": 11,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     },
     {
       "Name": "Kłobuk",
-      "Element": "Earth",
+      "Element": 3,
+      "ElementName": "Earth",
       "MinPoints": 8,
       "MaxPoints": 9,
-      "Description": "Lorem ipsum"
+      "Description": "Lorem ipsum",
+      "ColorQuestion": {
+        "text": "Jaki kolor dla tego chowańca?",
+        "answers": [
+          {
+            "text": "Czerwony",
+            "color": "red"
+          },
+          {
+            "text": "Niebieski",
+            "color": "blue"
+          },
+          {
+            "text": "Zielony",
+            "color": "green"
+          },
+          {
+            "text": "Inny",
+            "color": "other"
+          }
+        ]
+      }
     }
   ]
 }

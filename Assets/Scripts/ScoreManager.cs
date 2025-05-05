@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ScoreManager
 {
@@ -12,6 +14,25 @@ public class ScoreManager
     private Spirit[] airSpirits;
     private Spirit[] earthSpirits;
     private Spirit[] waterSpirits;
+
+	#nullable enable
+	private Spirit? _currentSpirit;
+	#nullable disable
+
+	public Spirit CurrentSpirit { 
+		get 
+		{
+			if (_currentSpirit == null) {
+				throw new System.InvalidOperationException("CurrentSpirit is not set.");
+			}
+			return _currentSpirit;
+		}
+		set
+		{
+        	_currentSpirit = value;
+    	}
+ 	}
+	public string CurrentColor { get; private set; }
 
     public void Start()
     {
@@ -33,47 +54,87 @@ public class ScoreManager
         waterScore = 0;
         earthScore = 0;
         airScore = 0;
+		CurrentColor = "";
+		CurrentSpirit = null;
     }
 
-    public Spirit GetSpirit()
+    public void CalculateSpirit()
     {
         Debug.Log($"RESULT: Fire: {fireScore}, Water: {waterScore}, Earth: {earthScore}, Air: {airScore}");
-        
-		// TODO - real logic for choosing the right spirit should come here
-		// for now, just choose a random spirit of the correct element
-		int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
-		
-		Spirit[] selectedArray = null;
 
-    	if (maxScore == fireScore)
-    	{
-       	 	selectedArray = fireSpirits;
-    	}
-    	else if (maxScore == waterScore)
-    	{
-       		selectedArray = waterSpirits;
-    	}
-    	else if (maxScore == earthScore)
-    	{
-        	selectedArray = earthSpirits;
-    	}
-    	else if (maxScore == airScore)
-    	{
-        	selectedArray = airSpirits;
-    	}
-		
-		int randomIndex = UnityEngine.Random.Range(0, selectedArray.Length);
-    	return selectedArray[randomIndex];
+        int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
+
+        // Collect tied elements
+		List<SpiritElement> tiedElements = new List<SpiritElement>();
+
+        if (fireScore == maxScore) tiedElements.Add(SpiritElement.Fire);
+        if (waterScore == maxScore) tiedElements.Add(SpiritElement.Water);
+        if (earthScore == maxScore) tiedElements.Add(SpiritElement.Earth);
+        if (airScore == maxScore) tiedElements.Add(SpiritElement.Air);
+
+        // Randomly pick one from ties
+        SpiritElement chosenElement = tiedElements.OrderBy(q => UnityEngine.Random.value).First();
+        Debug.Log($"Tie resolved randomly � selected: {chosenElement}");
+
+        Spirit[] selectedArray = null;
+        int elementScore = 0;
+
+        if (chosenElement == SpiritElement.Fire)
+        {
+            selectedArray = fireSpirits;
+            elementScore = fireScore;
+        }
+        else if (chosenElement == SpiritElement.Water)
+        {
+            selectedArray = waterSpirits;
+            elementScore = waterScore;
+        }
+        else if (chosenElement == SpiritElement.Earth)
+        {
+            selectedArray = earthSpirits;
+            elementScore = earthScore;
+        }
+        else if (chosenElement == SpiritElement.Air)
+        {
+            selectedArray = airSpirits;
+            elementScore = airScore;
+        }
+
+        // Find spirits matching the score threshold
+        var matchingSpirits = selectedArray
+            .Where(spirit => elementScore >= spirit.MinPoints && elementScore <= spirit.MaxPoints)
+            .ToArray();
+
+        if (matchingSpirits.Length == 0)
+        {
+            Debug.LogWarning($"No spirit found for {chosenElement} with score {elementScore}");
+            return ;
+        }
+
+        int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
+        // CurrentSpirit = matchingSpirits[randomIndex];
+		CurrentSpirit = earthSpirits[3];
+		return;
     }
+	
+	public void SetColor(string color) 
+	{
+		CurrentColor = color;
+	}
 
+	public string GetFileName(string spiritName)
+	{
+		return $"Spirits/{spiritName}/{CurrentColor}";
+	}
+	
     private void LoadSpirits()
     {
 		TextAsset jsonText = Resources.Load<TextAsset>("spirits");
 		SpiritList wrapper = JsonUtility.FromJson<SpiritList>(jsonText.text);
 		Spirit[] allSpirits = wrapper.spirits;
-		this.fireSpirits = allSpirits.Where(spirit => spirit.Element == "Fire").ToArray();
-		this.airSpirits = allSpirits.Where(spirit => spirit.Element == "Air").ToArray();
-		this.waterSpirits = allSpirits.Where(spirit => spirit.Element == "Water").ToArray();
-		this.earthSpirits = allSpirits.Where(spirit => spirit.Element == "Earth").ToArray();
+		this.fireSpirits = allSpirits.Where(spirit => spirit.Element == SpiritElement.Fire).ToArray();
+		this.airSpirits = allSpirits.Where(spirit => spirit.Element == SpiritElement.Air).ToArray();
+		this.waterSpirits = allSpirits.Where(spirit => spirit.Element == SpiritElement.Water).ToArray();
+		this.earthSpirits = allSpirits.Where(spirit => spirit.Element == SpiritElement.Earth).ToArray();
     }
 }

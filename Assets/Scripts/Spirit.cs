@@ -4,14 +4,23 @@ using UnityEngine;
 public class Spirit
 {
     public string Name;
-    public string Element;
+    public SpiritElement Element;
     public int MinPoints;
     public int MaxPoints;
     public string Description;
+	public ColorQuestion ColorQuestion;
 }
 
 [System.Serializable]
 public class SpiritList
 {
     public Spirit[] spirits;
+}
+
+public enum SpiritElement
+{
+    Water,
+	Fire,
+    Air,
+    Earth
 }

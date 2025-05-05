@@ -87,36 +87,28 @@ public class GameManager : MonoBehaviour
         questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
         
 		Spirit spirit = scoreManager.CurrentSpirit;
-		if (spirit == null)
-		{
-    		return;
-		} else {
-			ColorQuestion colorQuestion = spirit.ColorQuestion;
-        	questionText.text = colorQuestion.text;
-        
-        	for (int i = 0; i < answerButtons.Length; i++)
-            {
-                int index = i;
-                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = colorQuestion.answers[index].text;
-                answerButtons[index].onClick.RemoveAllListeners();
-                answerButtons[index].onClick.AddListener(() => OnColorAnswerSelected(index));
-            }
-		}
+		
+		ColorQuestion colorQuestion = spirit.ColorQuestion;
+        questionText.text = colorQuestion.text;
+    
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            int index = i;
+            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = colorQuestion.answers[index].text;
+            answerButtons[index].onClick.RemoveAllListeners();
+            answerButtons[index].onClick.AddListener(() => OnColorAnswerSelected(index));
+        }
+		
         return;
     }
     
     void OnColorAnswerSelected(int index)
     {
 		Spirit spirit = scoreManager.CurrentSpirit;
-		if (spirit == null)
-		{
-    		return;
-		} else {
-			ColorAnswer answer = spirit.ColorQuestion.answers[index];
-        	scoreManager.SetColor(answer.color);
-        	Debug.Log($"{answer.color}");
-        	ShowResult();
-		}
+		ColorAnswer answer = spirit.ColorQuestion.answers[index];
+        scoreManager.SetColor(answer.color);
+        Debug.Log($"{answer.color}");
+        ShowResult();
     }
 
     void ShowResult()

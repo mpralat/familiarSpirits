@@ -36,5 +36,6 @@ public class ColorAnswer
 {
 	public string text;
 	public string color;
+	public string url;
 }
 

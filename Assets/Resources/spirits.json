@@ -11,20 +11,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url":"bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Szary",
+            "color": "grey",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white",
+            "url": "bogus_url"
           }
         ]
       }
@@ -40,20 +44,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow",
+            "url": "bogus_url"
           }
         ]
       }
@@ -69,20 +77,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Pomarańczowy",
+            "color": "orange",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "url": "bogus_url"
           }
         ]
       }
@@ -98,20 +110,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Biały",
+            "color": "white",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown",
+            "url": "bogus_url"
           }
         ]
       }
@@ -128,19 +144,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           }
         ]
       }
@@ -156,20 +176,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Szary",
+            "color": "grey",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow",
+            "url": "bogus_url"
           }
         ]
       }
@@ -185,20 +209,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "url": "bogus_url"
           }
         ]
       }
@@ -215,19 +243,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "url": "bogus_url"
           }
         ]
       }
@@ -243,20 +275,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown",
+            "url": "bogus_url"
           }
         ]
       }
@@ -273,19 +309,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Szary",
+            "color": "grey",
+            "url": "bogus_url"
           }
         ]
       }
@@ -301,20 +341,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           }
         ]
       }
@@ -331,19 +375,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           }
         ]
       }
@@ -360,19 +408,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "url": "bogus_url"
           }
         ]
       }
@@ -389,19 +441,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "url": "bogus_url"
           }
         ]
       }
@@ -417,20 +473,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Pomarańczowy",
+            "color": "orange",
+            "url": "bogus_url"
           }
         ]
       }
@@ -447,19 +507,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "url": "bogus_url"
           }
         ]
       }
@@ -475,20 +539,24 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "url": "bogus_url"
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white",
+            "url": "bogus_url"
           }
         ]
       }
@@ -505,19 +573,23 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "url": "bogus_url"
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "url": "bogus_url"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Żółty",
+            "color": "yellow",
+            "url": "bogus_url"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "url": "bogus_url"
           }
         ]
       }

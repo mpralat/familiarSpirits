@@ -15,6 +15,8 @@ public class ScoreManager
     private Spirit[] earthSpirits;
     private Spirit[] waterSpirits;
 
+	private int runNumber = 0;
+
 	#nullable enable
 	private Spirit? _currentSpirit;
 	#nullable disable
@@ -48,7 +50,7 @@ public class ScoreManager
         airScore += airPoints;
     }
 
-    private void ResetPoints()
+    public void ResetPoints()
     {
         fireScore = 0;
         waterScore = 0;
@@ -60,6 +62,7 @@ public class ScoreManager
 
     public void CalculateSpirit()
     {
+		Debug.Log($"Run number: {runNumber}");
         Debug.Log($"RESULT: Fire: {fireScore}, Water: {waterScore}, Earth: {earthScore}, Air: {airScore}");
 
         int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
@@ -112,8 +115,21 @@ public class ScoreManager
         }
 
         int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
-        // CurrentSpirit = matchingSpirits[randomIndex];
-		CurrentSpirit = earthSpirits[3];
+        
+		// First go through all spirits -- comment out if you don't want to run in test mode
+		if (runNumber < 4) {
+			CurrentSpirit = waterSpirits[runNumber];
+		} else if (runNumber < 9) {
+			CurrentSpirit = fireSpirits[runNumber - 4];
+		} else if (runNumber < 13) {
+			CurrentSpirit = airSpirits[runNumber - 9];
+		} else if (runNumber < 18) {
+			CurrentSpirit = earthSpirits[runNumber - 13];
+		} else {
+			CurrentSpirit = matchingSpirits[randomIndex];	
+		}
+
+		runNumber += 1;
 		return;
     }
 	
@@ -124,10 +140,11 @@ public class ScoreManager
 
 	public string GetFileName(string spiritName)
 	{
+		Debug.Log($"Spirits/{spiritName}/{CurrentColor}");
 		return $"Spirits/{spiritName}/{CurrentColor}";
 	}
 	
-    private void LoadSpirits()
+    public void LoadSpirits()
     {
 		TextAsset jsonText = Resources.Load<TextAsset>("spirits");
 		SpiritList wrapper = JsonUtility.FromJson<SpiritList>(jsonText.text);

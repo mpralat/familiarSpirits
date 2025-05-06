@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private const int QUESTIONS_PER_PLAYER = 13;
+
+    private static bool initialized = false;
     
     // Main Panel stuff
     public TextMeshProUGUI questionText;
@@ -24,14 +26,20 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI resultText;
     
     private int currentQuestionIndex = 0;
-    private ScoreManager scoreManager = new ScoreManager();
+    private ScoreManager scoreManager;
     
     void Start()
     {
+		if (!initialized)
+        {
+            initialized = true;
+			this.scoreManager = new ScoreManager();
+			this.scoreManager.LoadSpirits();
+			LoadQuestions();
+		}
         currentQuestionIndex = 0;
         resultPanel.SetActive(false);
-		scoreManager.Start();
-        LoadQuestions();
+		this.scoreManager.ResetPoints();
         ShowQuestion();
     }
 
@@ -116,12 +124,13 @@ public class GameManager : MonoBehaviour
 		Spirit resultSpirit = scoreManager.CurrentSpirit;
 		resultPanel.SetActive(true);
         resultText.text = $"Twój chowaniec to: {resultSpirit.Name}";
-        string resultImagePath = scoreManager.GetFileName(resultSpirit.Name); 
+        string resultImagePath = scoreManager.GetFileName(resultSpirit.Name);
+		Debug.Log($"image path: {resultImagePath}");
         resultImage.sprite = Resources.Load<Sprite>(resultImagePath);
     }
     
     public void ResetGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Start();
     }
 }

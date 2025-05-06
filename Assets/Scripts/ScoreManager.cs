@@ -116,7 +116,10 @@ public class ScoreManager
 
         int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
         
+
+		// UNNCOMMENT IF YOU WANT TO GO THROUGH ALL SPIRITS
 		// First go through all spirits -- comment out if you don't want to run in test mode
+		/** 
 		if (runNumber < 4) {
 			CurrentSpirit = waterSpirits[runNumber];
 		} else if (runNumber < 9) {
@@ -128,7 +131,8 @@ public class ScoreManager
 		} else {
 			CurrentSpirit = matchingSpirits[randomIndex];	
 		}
-
+		**/
+		CurrentSpirit = matchingSpirits[randomIndex];	
 		runNumber += 1;
 		return;
     }

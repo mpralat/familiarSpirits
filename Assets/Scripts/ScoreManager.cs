@@ -35,6 +35,28 @@ public class ScoreManager
     	}
  	}
 	public string CurrentColor { get; private set; }
+	
+	public string FrameName {get; private set;}
+	
+	public void SetColor(string color) 
+	{
+		CurrentColor = color;
+	}
+
+	public string GetColor()
+	{
+		return CurrentColor;
+	}
+
+	public void SetFrame(string frameName)
+	{
+		FrameName = frameName;
+	}
+
+	public string GetFrame()
+	{
+		return FrameName;
+	}
 
     public void Start()
     {
@@ -57,6 +79,7 @@ public class ScoreManager
         earthScore = 0;
         airScore = 0;
 		CurrentColor = "";
+		FrameName = "";
 		CurrentSpirit = null;
     }
 
@@ -119,7 +142,8 @@ public class ScoreManager
 
 		// UNNCOMMENT IF YOU WANT TO GO THROUGH ALL SPIRITS
 		// First go through all spirits -- comment out if you don't want to run in test mode
-		/** 
+
+		Debug.Log("Running test run...");
 		if (runNumber < 4) {
 			CurrentSpirit = waterSpirits[runNumber];
 		} else if (runNumber < 9) {
@@ -131,22 +155,21 @@ public class ScoreManager
 		} else {
 			CurrentSpirit = matchingSpirits[randomIndex];	
 		}
-		**/
-		CurrentSpirit = matchingSpirits[randomIndex];	
+		
+		CurrentSpirit = matchingSpirits[randomIndex];
+		Debug.Log($"Spirit: {CurrentSpirit.Name}");
 		runNumber += 1;
 		return;
     }
-	
-	public void SetColor(string color) 
-	{
-		CurrentColor = color;
-	}
 
 	public string GetFileName(string spiritName)
 	{
-		Debug.Log($"Spirits/{spiritName}/{CurrentColor}");
-		return $"Spirits/{spiritName}/{CurrentColor}";
-	}
+		Debug.Log($"Spirit name: {spiritName}, color: {CurrentColor}, frame: {FrameName}");
+		// return $"Spirits/{spiritName}/{CurrentColor}";
+		
+		// return $"{spiritName}_{CurrentColor}_{FrameName}";
+		return "Assets/Resources/Ankluz_brown_feathers.webm";
+	}	
 	
     public void LoadSpirits()
     {

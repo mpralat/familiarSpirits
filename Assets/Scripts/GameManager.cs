@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,9 +25,23 @@ public class GameManager : MonoBehaviour
     public GameObject resultPanel;
     public Image resultImage;
     public TextMeshProUGUI resultText;
+
+    public VideoPlayer videoPlayer;  // VideoPlayer to play the WebM file
+    public RawImage videoRawImage;   // RawImage to display the video
     
     private int currentQuestionIndex = 0;
     private ScoreManager scoreManager;
+
+	private FrameQuestion frameQuestion = new FrameQuestion(
+	text: "Jaka ramka?",
+	answers: new FrameAnswer[]
+	{
+		new FrameAnswer("Piórka", "feathers"),
+		new FrameAnswer("Drzewka", "branches"),
+		new FrameAnswer("Kwiatki", "flowers"),
+		new FrameAnswer("Grzybki", "mushrooms")
+	}
+);
     
     void Start()
     {
@@ -66,7 +81,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
+        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
 
         Question q = questions[currentQuestionIndex];
         questionText.text = q.text;
@@ -92,7 +107,7 @@ public class GameManager : MonoBehaviour
 	void ShowColorQuestion()
     {
         // last question should be a color question
-        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 1}";
+        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
         
 		Spirit spirit = scoreManager.CurrentSpirit;
 		
@@ -115,7 +130,27 @@ public class GameManager : MonoBehaviour
 		Spirit spirit = scoreManager.CurrentSpirit;
 		ColorAnswer answer = spirit.ColorQuestion.answers[index];
         scoreManager.SetColor(answer.color);
-        Debug.Log($"{answer.color}");
+        Debug.Log($"Kolorek: {answer.color}");
+        ShowFrameQuestion();
+    }
+
+	void ShowFrameQuestion()
+	{
+		questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
+        questionText.text = frameQuestion.text;
+    
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            int index = i;
+            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = frameQuestion.answers[index].text;
+            answerButtons[index].onClick.RemoveAllListeners();
+            answerButtons[index].onClick.AddListener(() => OnFrameAnswerSelected(index));
+        }
+	}
+
+	void OnFrameAnswerSelected(int index)
+    {
+		scoreManager.SetFrame(frameQuestion.answers[index].frameName);
         ShowResult();
     }
 
@@ -124,9 +159,32 @@ public class GameManager : MonoBehaviour
 		Spirit resultSpirit = scoreManager.CurrentSpirit;
 		resultPanel.SetActive(true);
         resultText.text = $"Twój chowaniec to: {resultSpirit.Name}";
-        string resultImagePath = scoreManager.GetFileName(resultSpirit.Name);
-		Debug.Log($"image path: {resultImagePath}");
-        resultImage.sprite = Resources.Load<Sprite>(resultImagePath);
+        // string resultVideoPath = scoreManager.GetFileName(resultSpirit.Name);
+		// Debug.Log($"video path: {resultVideoPath}");
+        
+		// Path to the video file (relative to the Resources folder)
+        string resultVideoPath = "Ankluz_brown_feathers"; // No file extension
+        string videoFilePath = "Assets/Resources/" + resultVideoPath + ".webm";  // If you want full path
+
+        // Set the VideoPlayer source to the path
+        videoPlayer.source = VideoSource.Url;
+        videoPlayer.url = "file://" + videoFilePath;  // Assuming a path to a file on the disk
+
+        // Set up the video to play on the RawImage
+        videoPlayer.Prepare();
+        videoPlayer.prepareCompleted += (source) =>
+        {
+            videoRawImage.texture = videoPlayer.texture;  // Assign the video texture to RawImage
+            videoPlayer.Play();
+        };
+        videoPlayer.loopPointReached += OnLoopPointReached;
+
+    }
+    
+    void OnLoopPointReached(VideoPlayer vp)
+    {
+        vp.frame = 0;  // Reset to the first frame
+        vp.Play();  // Restart the video
     }
     
     public void ResetGame()

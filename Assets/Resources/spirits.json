@@ -3,7 +3,7 @@
     {
       "Name": "Plonek",
       "Element": 0,
-      "ElementName":"Water",
+      "ElementName": "Water",
       "MinPoints": 4,
       "MaxPoints": 6,
       "Description": "Lorem ipsum",
@@ -11,20 +11,39 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Szary",
+            "color": "grey",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -40,20 +59,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -69,20 +112,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Pomarańczowy",
+            "color": "orange",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -98,20 +165,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Biały",
+            "color": "white",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -128,19 +219,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -156,20 +271,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Szary",
+            "color": "grey",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -185,20 +324,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -215,19 +378,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -243,20 +430,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -273,19 +484,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Szary",
+            "color": "grey",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -301,20 +536,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -331,19 +590,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -360,19 +643,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -380,7 +687,7 @@
     {
       "Name": "Przestęp",
       "Element": 3,
-      "ElementName":"Earth",
+      "ElementName": "Earth",
       "MinPoints": 4,
       "MaxPoints": 5,
       "Description": "Lorem ipsum",
@@ -389,19 +696,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -417,20 +748,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Pomarańczowy",
+            "color": "orange",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -447,19 +802,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Inny",
-            "color": "other"
+            "color": "other",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -475,20 +854,44 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Zielony",
-            "color": "green"
+            "color": "green",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }
@@ -505,19 +908,43 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red"
+            "color": "red",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
             "text": "Niebieski",
-            "color": "blue"
+            "color": "blue",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Żółty",
+            "color": "yellow",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink",
+            "frameUrls": {
+              "branchesUrl": "branches_url",
+              "feathersUrl": "feathers_url",
+              "flowersUrl": "flowers_url",
+              "mushroomUrl": "mushroom_url"
+            }
           }
         ]
       }

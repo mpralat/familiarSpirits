@@ -36,16 +36,6 @@ public class ColorAnswer
 {
 	public string text;
 	public string color;
-	public FrameUrls frameUrls;
-}
-
-[System.Serializable]
-public class FrameUrls
-{
-	public string branchesUrl;
-	public string feathersUrl;
-	public string flowersUrl;
-	public string mushroomUrl;
 }
 
 [System.Serializable]

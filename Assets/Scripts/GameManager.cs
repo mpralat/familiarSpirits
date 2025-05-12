@@ -6,6 +6,9 @@ using System.IO;
 using System.Linq;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using ZXing;
+using ZXing.QrCode;
+using ZXing.Common;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,19 +28,21 @@ public class GameManager : MonoBehaviour
     public GameObject resultPanel;
     public Image resultImage;
     public TextMeshProUGUI resultText;
+    public RawImage qrCodeImage;
 
-    public VideoPlayer videoPlayer;  // VideoPlayer to play the WebM file
-    public RawImage videoRawImage;   // RawImage to display the video
+    public VideoPlayer videoPlayer;
+    public RawImage videoRawImage;
     
     private int currentQuestionIndex = 0;
     private ScoreManager scoreManager;
+	private UrlManager linkManager;
 
 	private FrameQuestion frameQuestion = new FrameQuestion(
 	text: "Jaka ramka?",
 	answers: new FrameAnswer[]
 	{
 		new FrameAnswer("Piórka", "feathers"),
-		new FrameAnswer("Drzewka", "branches"),
+		new FrameAnswer("Drzewka", "trees"),
 		new FrameAnswer("Kwiatki", "flowers"),
 		new FrameAnswer("Grzybki", "mushrooms")
 	}
@@ -51,6 +56,8 @@ public class GameManager : MonoBehaviour
 			this.scoreManager = new ScoreManager();
 			this.scoreManager.LoadSpirits();
 			LoadQuestions();
+			this.linkManager = new UrlManager();
+			this.linkManager.LoadLinks();
 		}
         currentQuestionIndex = 0;
         resultPanel.SetActive(false);
@@ -159,24 +166,24 @@ public class GameManager : MonoBehaviour
 		Spirit resultSpirit = scoreManager.CurrentSpirit;
 		resultPanel.SetActive(true);
         resultText.text = $"Twój chowaniec to: {resultSpirit.Name}";
-        // string resultVideoPath = scoreManager.GetFileName(resultSpirit.Name);
-		// Debug.Log($"video path: {resultVideoPath}");
-        
-		// Path to the video file (relative to the Resources folder)
-        string resultVideoPath = "Ankluz_brown_feathers"; // No file extension
-        string videoFilePath = "Assets/Resources/" + resultVideoPath + ".webm";  // If you want full path
 
-        // Set the VideoPlayer source to the path
+		string fileName = scoreManager.GetFileName(resultSpirit.Name);
+		Debug.Log(fileName);
+		string gifUrl = linkManager.GetUrlByName($"{fileName}.gif");
+
+		GenerateQRCode(gifUrl);
+
+        string videoFilePath = $"Assets/Resources/Spirits/{fileName}.webm";
         videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "file://" + videoFilePath;  // Assuming a path to a file on the disk
+        videoPlayer.url = "file://" + videoFilePath;
 
-        // Set up the video to play on the RawImage
         videoPlayer.Prepare();
         videoPlayer.prepareCompleted += (source) =>
         {
-            videoRawImage.texture = videoPlayer.texture;  // Assign the video texture to RawImage
+            videoRawImage.texture = videoPlayer.texture;
             videoPlayer.Play();
         };
+		// LOOP
         videoPlayer.loopPointReached += OnLoopPointReached;
 
     }
@@ -185,6 +192,26 @@ public class GameManager : MonoBehaviour
     {
         vp.frame = 0;  // Reset to the first frame
         vp.Play();  // Restart the video
+    }
+
+	void GenerateQRCode(string text)
+    {
+        var writer = new BarcodeWriter
+        {
+            Format = BarcodeFormat.QR_CODE,
+            Options = new ZXing.Common.EncodingOptions
+            {
+                Height = 256,
+                Width = 256
+            }
+        };
+
+        var color32 = writer.Write(text);
+        Texture2D texture = new Texture2D(256, 256);
+        texture.SetPixels32(color32);
+        texture.Apply();
+
+        qrCodeImage.texture = texture;
     }
     
     public void ResetGame()

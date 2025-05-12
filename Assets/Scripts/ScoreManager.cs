@@ -143,18 +143,18 @@ public class ScoreManager
 		// UNNCOMMENT IF YOU WANT TO GO THROUGH ALL SPIRITS
 		// First go through all spirits -- comment out if you don't want to run in test mode
 
-		Debug.Log("Running test run...");
-		if (runNumber < 4) {
-			CurrentSpirit = waterSpirits[runNumber];
-		} else if (runNumber < 9) {
-			CurrentSpirit = fireSpirits[runNumber - 4];
-		} else if (runNumber < 13) {
-			CurrentSpirit = airSpirits[runNumber - 9];
-		} else if (runNumber < 18) {
-			CurrentSpirit = earthSpirits[runNumber - 13];
-		} else {
-			CurrentSpirit = matchingSpirits[randomIndex];	
-		}
+		// Debug.Log("Running test run...");
+		// if (runNumber < 4) {
+		// 	CurrentSpirit = waterSpirits[runNumber];
+		// } else if (runNumber < 9) {
+		// 	CurrentSpirit = fireSpirits[runNumber - 4];
+		// } else if (runNumber < 13) {
+		// 	CurrentSpirit = airSpirits[runNumber - 9];
+		// } else if (runNumber < 18) {
+		// 	CurrentSpirit = earthSpirits[runNumber - 13];
+		// } else {
+		// 	CurrentSpirit = matchingSpirits[randomIndex];	
+		// }
 		
 		CurrentSpirit = matchingSpirits[randomIndex];
 		Debug.Log($"Spirit: {CurrentSpirit.Name}");
@@ -165,10 +165,8 @@ public class ScoreManager
 	public string GetFileName(string spiritName)
 	{
 		Debug.Log($"Spirit name: {spiritName}, color: {CurrentColor}, frame: {FrameName}");
-		// return $"Spirits/{spiritName}/{CurrentColor}";
-		
-		// return $"{spiritName}_{CurrentColor}_{FrameName}";
-		return "Assets/Resources/Ankluz_brown_feathers.webm";
+		// return $"Assets/Resources/Spirits/{spiritName}_{CurrentColor}_{FrameName}.webm";
+		return $"{spiritName}_{CurrentColor}_{FrameName}";
 	}	
 	
     public void LoadSpirits()

@@ -17,33 +17,15 @@
           },
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Szary",
-            "color": "grey",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "grey"
           },
           {
             "text": "Biały",
-            "color": "white",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "white"
           }
         ]
       }
@@ -60,43 +42,19 @@
         "answers": [
           {
             "text": "Szary",
-            "color": "grey",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "grey"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Żółty",
-            "color": "yellow",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "yellow"
           }
         ]
       }
@@ -113,43 +71,19 @@
         "answers": [
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           },
           {
             "text": "Pomarańczowy",
-            "color": "orange",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "orange"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Fioletowy",
-            "color": "purple",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "purple"
           }
         ]
       }
@@ -166,43 +100,19 @@
         "answers": [
           {
             "text": "Szary",
-            "color": "grey",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "grey"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Biały",
-            "color": "white",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "white"
           },
           {
             "text": "Brąz",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           }
         ]
       }
@@ -219,43 +129,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           }
         ]
       }
@@ -272,43 +158,19 @@
         "answers": [
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           },
           {
             "text": "Szary",
-            "color": "grey",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "grey"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Żółty",
-            "color": "yellow",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "yellow"
           }
         ]
       }
@@ -325,43 +187,19 @@
         "answers": [
           {
             "text": "Czarny",
-            "color": "black",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "black"
           },
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Fioletowy",
-            "color": "purple",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "purple"
           }
         ]
       }
@@ -378,43 +216,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Inny",
-            "color": "other",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "other"
           }
         ]
       }
@@ -431,43 +245,19 @@
         "answers": [
           {
             "text": "Czarny",
-            "color": "black",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "black"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Brąz",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           }
         ]
       }
@@ -484,43 +274,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Szary",
-            "color": "grey",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "grey"
           }
         ]
       }
@@ -537,43 +303,19 @@
         "answers": [
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           }
         ]
       }
@@ -590,43 +332,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           }
         ]
       }
@@ -643,43 +361,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Fioletowy",
-            "color": "purple",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "purple"
           }
         ]
       }
@@ -696,43 +390,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Inny",
-            "color": "other",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "other"
           }
         ]
       }
@@ -749,43 +419,19 @@
         "answers": [
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Pomarańczowy",
-            "color": "orange",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "orange"
           }
         ]
       }
@@ -802,43 +448,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Inny",
-            "color": "other",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "other"
           }
         ]
       }
@@ -855,43 +477,19 @@
         "answers": [
           {
             "text": "Czarny",
-            "color": "black",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "black"
           },
           {
             "text": "Brązowy",
-            "color": "brown",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "brown"
           },
           {
             "text": "Zielony",
-            "color": "green",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "green"
           },
           {
             "text": "Biały",
-            "color": "white",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "white"
           }
         ]
       }
@@ -908,43 +506,19 @@
         "answers": [
           {
             "text": "Czerwony",
-            "color": "red",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "red"
           },
           {
             "text": "Niebieski",
-            "color": "blue",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "blue"
           },
           {
             "text": "Żółty",
-            "color": "yellow",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "yellow"
           },
           {
             "text": "Różowy",
-            "color": "pink",
-            "frameUrls": {
-              "branchesUrl": "branches_url",
-              "feathersUrl": "feathers_url",
-              "flowersUrl": "flowers_url",
-              "mushroomUrl": "mushroom_url"
-            }
+            "color": "pink"
           }
         ]
       }

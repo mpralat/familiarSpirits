@@ -3,7 +3,7 @@
     {
       "Name": "Plonek",
       "Element": 0,
-      "ElementName":"Water",
+      "ElementName": "Water",
       "MinPoints": 4,
       "MaxPoints": 6,
       "Description": "Lorem ipsum",
@@ -11,20 +11,21 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Szary",
+            "color": "grey"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white"
           }
         ]
       }
@@ -40,8 +41,8 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey"
           },
           {
             "text": "Niebieski",
@@ -52,8 +53,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow"
           }
         ]
       }
@@ -69,20 +70,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Pomarańczowy",
+            "color": "orange"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple"
           }
         ]
       }
@@ -98,20 +99,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Szary",
+            "color": "grey"
           },
           {
             "text": "Niebieski",
             "color": "blue"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Biały",
+            "color": "white"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown"
           }
         ]
       }
@@ -131,16 +132,16 @@
             "color": "red"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink"
           }
         ]
       }
@@ -156,20 +157,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Różowy",
+            "color": "pink"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Szary",
+            "color": "grey"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow"
           }
         ]
       }
@@ -185,20 +186,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple"
           }
         ]
       }
@@ -243,8 +244,8 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black"
           },
           {
             "text": "Niebieski",
@@ -255,8 +256,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Brąz",
+            "color": "brown"
           }
         ]
       }
@@ -284,8 +285,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Szary",
+            "color": "grey"
           }
         ]
       }
@@ -301,20 +302,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink"
           }
         ]
       }
@@ -342,8 +343,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink"
           }
         ]
       }
@@ -371,8 +372,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple"
           }
         ]
       }
@@ -380,7 +381,7 @@
     {
       "Name": "Przestęp",
       "Element": 3,
-      "ElementName":"Earth",
+      "ElementName": "Earth",
       "MinPoints": 4,
       "MaxPoints": 5,
       "Description": "Lorem ipsum",
@@ -388,20 +389,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Pomarańczowy",
+            "color": "orange"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Różowy",
+            "color": "pink"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple"
           }
         ]
       }
@@ -417,8 +418,8 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
             "text": "Niebieski",
@@ -429,8 +430,8 @@
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Pomarańczowy",
+            "color": "orange"
           }
         ]
       }
@@ -475,20 +476,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Czarny",
+            "color": "black"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Biały",
+            "color": "white"
           }
         ]
       }
@@ -512,12 +513,12 @@
             "color": "blue"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Żółty",
+            "color": "yellow"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Różowy",
+            "color": "pink"
           }
         ]
       }

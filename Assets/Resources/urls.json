@@ -1,0 +1,967 @@
+{
+  "items": [
+    {
+      "name": "Ankluz_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041966/spirits/kqqwhxc0rcwgqpugud9f.gif"
+    },
+    {
+      "name": "Ankluz_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041967/spirits/zqpvuscrhanofjukc4rf.gif"
+    },
+    {
+      "name": "Ankluz_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041969/spirits/dt82bfvlysfwo8twocbd.gif"
+    },
+    {
+      "name": "Ankluz_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041970/spirits/qd18dxaldctogwlbnhra.gif"
+    },
+    {
+      "name": "Ankluz_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041972/spirits/xuon0osjmuwxlndslvlc.gif"
+    },
+    {
+      "name": "Ankluz_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041973/spirits/fmli1xhwpvrilzjvbukd.gif"
+    },
+    {
+      "name": "Ankluz_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041975/spirits/bclrvxfeyhmfxukequef.gif"
+    },
+    {
+      "name": "Ankluz_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041977/spirits/q5pxxwogjida8b9s60og.gif"
+    },
+    {
+      "name": "Ankluz_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041978/spirits/u7ftpi0sc9xi79ibysfv.gif"
+    },
+    {
+      "name": "Ankluz_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041980/spirits/cky1qh1efc6xb4xpycyu.gif"
+    },
+    {
+      "name": "Ankluz_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041982/spirits/iqxknbwxntz814we1exv.gif"
+    },
+    {
+      "name": "Ankluz_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041984/spirits/pirz0mvpienumhpoyg17.gif"
+    },
+    {
+      "name": "Ankluz_red_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041986/spirits/gg04halbw3rcu8judype.gif"
+    },
+    {
+      "name": "Ankluz_red_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041987/spirits/eultnn1eq8iufys77voy.gif"
+    },
+    {
+      "name": "Ankluz_red_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041989/spirits/oqm063dknssknexraijy.gif"
+    },
+    {
+      "name": "Ankluz_red_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041991/spirits/ijygulzvxtuygpscbuzl.gif"
+    },
+    {
+      "name": "Bannik_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041992/spirits/zk6ep3kfcb6kawxuunbi.gif"
+    },
+    {
+      "name": "Bannik_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041994/spirits/zjvlrpw3prgwohk7qose.gif"
+    },
+    {
+      "name": "Bannik_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041996/spirits/bi9qnwhucur4cemzlnnq.gif"
+    },
+    {
+      "name": "Bannik_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041997/spirits/dzo3ftdsqjpskb2ndezy.gif"
+    },
+    {
+      "name": "Bannik_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747041999/spirits/x323vpolljxemywutqky.gif"
+    },
+    {
+      "name": "Bannik_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042000/spirits/ddkjpv6ifdfa2typft4r.gif"
+    },
+    {
+      "name": "Bannik_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042002/spirits/c8hbrgmjidm0zsmw97za.gif"
+    },
+    {
+      "name": "Bannik_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042004/spirits/dwbgg9mtdlmaw4wbzy6r.gif"
+    },
+    {
+      "name": "Bannik_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042005/spirits/gahtb4gyjd1jtw7ae7kr.gif"
+    },
+    {
+      "name": "Bannik_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042007/spirits/rolg0xgovqmxxezoc1dy.gif"
+    },
+    {
+      "name": "Bannik_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042009/spirits/ylnbl7njutc4z8d7lwpw.gif"
+    },
+    {
+      "name": "Bannik_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042010/spirits/rg6bkijmzde7cnqcc0ze.gif"
+    },
+    {
+      "name": "Bannik_red_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042012/spirits/baipgtfnuvblluzu77kj.gif"
+    },
+    {
+      "name": "Bannik_red_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042013/spirits/clbxawo3qgxo0scqqiqt.gif"
+    },
+    {
+      "name": "Bannik_red_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042015/spirits/fmewchim865cleeih9ik.gif"
+    },
+    {
+      "name": "Bannik_red_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042017/spirits/jb7wmmnxaakqijf85yfb.gif"
+    },
+    {
+      "name": "Boże siedleczko_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042019/spirits/vp0kmlen3sxifvvpoot0.gif"
+    },
+    {
+      "name": "Boże siedleczko_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042020/spirits/qkjpvylwkpuwbpdc1tcw.gif"
+    },
+    {
+      "name": "Boże siedleczko_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042023/spirits/scp5pdis8pcgk13k3yul.gif"
+    },
+    {
+      "name": "Boże siedleczko_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042024/spirits/hup4r0fypgrbeuwoe7bq.gif"
+    },
+    {
+      "name": "Boże siedleczko_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042025/spirits/q9xq6gks6vlufczhbp2h.gif"
+    },
+    {
+      "name": "Boże siedleczko_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042027/spirits/uqxlx2te8s4m1syazxfq.gif"
+    },
+    {
+      "name": "Boże siedleczko_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042030/spirits/gn1npjmozbn7tbvtccbz.gif"
+    },
+    {
+      "name": "Boże siedleczko_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042031/spirits/p5rb0et22l74prpyit8q.gif"
+    },
+    {
+      "name": "Boże siedleczko_orange_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042033/spirits/zxzmwc66q7hrsvhldaa4.gif"
+    },
+    {
+      "name": "Boże siedleczko_orange_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042034/spirits/olcppogm2nrueofflsfd.gif"
+    },
+    {
+      "name": "Boże siedleczko_orange_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042036/spirits/wwpzgaam5lo7ireont4b.gif"
+    },
+    {
+      "name": "Boże siedleczko_orange_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042038/spirits/gg5t8qrkimq4t5j1auoe.gif"
+    },
+    {
+      "name": "Boże siedleczko_white_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042039/spirits/hvnpe4z6igf8eeipv0l8.gif"
+    },
+    {
+      "name": "Boże siedleczko_white_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042041/spirits/cq736a8ny33z8dbfatyo.gif"
+    },
+    {
+      "name": "Boże siedleczko_white_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042042/spirits/j7ij6pnayqgzvyvigodj.gif"
+    },
+    {
+      "name": "Boże siedleczko_white_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042044/spirits/jmqnbixvjenwugzjlwev.gif"
+    },
+    
+    {
+      "name": "Bzionek_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042065/spirits/m2mnzwgwja9napuniyds.gif"
+    },
+    {
+      "name": "Bzionek_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042067/spirits/qirnpvxwvehrhimvhwai.gif"
+    },
+    {
+      "name": "Bzionek_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042070/spirits/lnmdrm6qkn6c6qhbofvj.gif"
+    },
+    {
+      "name": "Bzionek_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042072/spirits/c0bqyhjukgjquv2uvc0a.gif"
+    },
+    {
+      "name": "Bzionek_orange_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042074/spirits/wf6irikysiovz9stzr2m.gif"
+    },
+    {
+      "name": "Bzionek_orange_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042076/spirits/vjfkphlhgznwqcedxrxl.gif"
+    },
+    {
+      "name": "Bzionek_orange_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042079/spirits/prziao6n9opp2qagnuar.gif"
+    },
+    {
+      "name": "Bzionek_orange_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042081/spirits/uethkwegz2bjo9azfblx.gif"
+    },
+    {
+      "name": "Bzionek_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042083/spirits/naeiirzjghnlrhwkjwuw.gif"
+    },
+    {
+      "name": "Bzionek_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042084/spirits/bzriii6iavtxnlxybbor.gif"
+    },
+    {
+      "name": "Bzionek_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042087/spirits/q5r5sdf9ciban8btlzl7.gif"
+    },
+    {
+      "name": "Bzionek_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042088/spirits/gahbl4gqhtrf1awaubyq.gif"
+    },
+    {
+      "name": "Bzionek_purple_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042090/spirits/owuliarfeid6pu2lpfgr.gif"
+    },
+    {
+      "name": "Bzionek_purple_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042093/spirits/wkfqkko3oquweljp0qho.gif"
+    },
+    {
+      "name": "Bzionek_purple_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042095/spirits/mbuvsjj2w7znwynu6jkc.gif"
+    },
+    {
+      "name": "Bzionek_purple_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042097/spirits/yzzxhk9no9fr3bpdwvjo.gif"
+    },
+    
+    
+    {
+      "name": "Domownik_black_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042131/spirits/ojis3jtydshorzctlagt.gif"
+    },
+    {
+      "name": "Domownik_black_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042133/spirits/mkeulm2fbxln5cgbv33m.gif"
+    },
+    {
+      "name": "Domownik_black_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042136/spirits/vevcame5toe2d5zc8p9f.gif"
+    },
+    {
+      "name": "Domownik_black_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042139/spirits/jczo6qjsmsnghzh98ku8.gif"
+    },
+    {
+      "name": "Domownik_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042141/spirits/ulh9jqyv6xrci2lizn7s.gif"
+    },
+    {
+      "name": "Domownik_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042143/spirits/yxtkn2la4yphuuw4pbrd.gif"
+    },
+    {
+      "name": "Domownik_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042146/spirits/m44x9iznp3yyi38jdzzn.gif"
+    },
+    {
+      "name": "Domownik_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042147/spirits/mpjsagzzflmzgklzqjgh.gif"
+    },
+    {
+      "name": "Domownik_white_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042150/spirits/lgyojdioqty0shwldhir.gif"
+    },
+    {
+      "name": "Domownik_white_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042151/spirits/nuaxdtmccqyiviuyvpwz.gif"
+    },
+    {
+      "name": "Domownik_white_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042154/spirits/a5byi9ujufyoptowls1x.gif"
+    },
+    {
+      "name": "Domownik_white_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042156/spirits/sj6muxl4th2mlwdmvyuy.gif"
+    },
+    {
+      "name": "Domownik_yellow_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042158/spirits/lxzkcsj28vrbwwgxxhzo.gif"
+    },
+    {
+      "name": "Domownik_yellow_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042160/spirits/jyxeoepr9uhbdkq8ypzc.gif"
+    },
+    {
+      "name": "Domownik_yellow_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042163/spirits/nkgfow9mpwete44w6khe.gif"
+    },
+    {
+      "name": "Domownik_yellow_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042165/spirits/ejtprsodli9wwworb20i.gif"
+    },
+    {
+      "name": "Grzenia_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042167/spirits/hwsupjqdgtrt3gakmf5x.gif"
+    },
+    {
+      "name": "Grzenia_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042169/spirits/tcggvzoaf6gouxx0fihu.gif"
+    },
+    {
+      "name": "Grzenia_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042172/spirits/lmmltuuubf67pgn8nyeo.gif"
+    },
+    {
+      "name": "Grzenia_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042174/spirits/fypkdcu6flnqjbuiuzlp.gif"
+    },
+    {
+      "name": "Grzenia_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042175/spirits/zmp999q7u3hndcomahdl.gif"
+    },
+    {
+      "name": "Grzenia_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042177/spirits/prshj24udneuujgha9p7.gif"
+    },
+    {
+      "name": "Grzenia_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042180/spirits/m32epyu8c4ejh2ji7cwq.gif"
+    },
+    {
+      "name": "Grzenia_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042182/spirits/bmqdg0otmqibjclliuaz.gif"
+    },
+    {
+      "name": "Grzenia_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042184/spirits/c8ubgyp3pujttpaltosu.gif"
+    },
+    {
+      "name": "Grzenia_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042186/spirits/sxzzoncz9kkgsoygwnfk.gif"
+    },
+    {
+      "name": "Grzenia_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042189/spirits/roezmxzgk9cwxjwudpb2.gif"
+    },
+    {
+      "name": "Grzenia_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042191/spirits/acwsgzuoqn4vcz7jnypn.gif"
+    },
+    {
+      "name": "Grzenia_yellow_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042193/spirits/pyh5diq7ooryc4pir9lx.gif"
+    },
+    {
+      "name": "Grzenia_yellow_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042195/spirits/tv08yxaoctnn6czsgpmw.gif"
+    },
+    {
+      "name": "Grzenia_yellow_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042199/spirits/cvaddizvifyackellj78.gif"
+    },
+    {
+      "name": "Grzenia_yellow_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042202/spirits/wlaopxjambrb1n7trqki.gif"
+    },
+    {
+      "name": "Gumiennik_black_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042204/spirits/ewgyknroy3ipmvg3aow5.gif"
+    },
+    {
+      "name": "Gumiennik_black_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042206/spirits/wgv96lraa7xjeqkyrrnh.gif"
+    },
+    {
+      "name": "Gumiennik_black_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042208/spirits/v0y4jrh2wk4p2jxmzpnf.gif"
+    },
+    {
+      "name": "Gumiennik_black_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042210/spirits/efkpjukslz3q5bnb3mjh.gif"
+    },
+    {
+      "name": "Gumiennik_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042212/spirits/d41bg88fkjugpjrgkysx.gif"
+    },
+    {
+      "name": "Gumiennik_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042214/spirits/qg8rzutsbn2wfhaeemhn.gif"
+    },
+    {
+      "name": "Gumiennik_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042216/spirits/vkgyowlylwupjgjrkqwt.gif"
+    },
+    {
+      "name": "Gumiennik_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042219/spirits/z1ld2x6tgglvczl5dcyc.gif"
+    },
+    {
+      "name": "Gumiennik_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042220/spirits/hqdgswxgobss9fvwg6iy.gif"
+    },
+    {
+      "name": "Gumiennik_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042222/spirits/ofmoh8i9gzurzciccae1.gif"
+    },
+    {
+      "name": "Gumiennik_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042225/spirits/wxkl3xzumnkxgcttbfhn.gif"
+    },
+    {
+      "name": "Gumiennik_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042227/spirits/sq6ub4o68dj9j9ihvput.gif"
+    },
+    {
+      "name": "Gumiennik_purple_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042228/spirits/boaihoriqn4l7z234dwj.gif"
+    },
+    {
+      "name": "Gumiennik_purple_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042230/spirits/fkhpr3kpjvsybfat5pjg.gif"
+    },
+    {
+      "name": "Gumiennik_purple_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042233/spirits/asxtmxtdrs8p6lsylpim.gif"
+    },
+    {
+      "name": "Gumiennik_purple_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042234/spirits/trriq7gztdgl6rugouth.gif"
+    },
+    {
+      "name": "Inkluz_black_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042236/spirits/te4s9owi24229hezteap.gif"
+    },
+    {
+      "name": "Inkluz_black_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042238/spirits/zootaqxia9fawzwmi8xd.gif"
+    },
+    {
+      "name": "Inkluz_black_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042240/spirits/ko4df2w0y4z5urktopsl.gif"
+    },
+    {
+      "name": "Inkluz_black_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042242/spirits/bkoaqs8zddlbha55qxtl.gif"
+    },
+    {
+      "name": "Inkluz_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042244/spirits/desrfvhcxz13xk4yks6t.gif"
+    },
+    {
+      "name": "Inkluz_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042246/spirits/mvhryqgsb3htzusm0mqr.gif"
+    },
+    {
+      "name": "Inkluz_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042248/spirits/flu9hhdssdkhzjsphvry.gif"
+    },
+    {
+      "name": "Inkluz_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042250/spirits/hxzo0y4yp6gpcwxpgbxj.gif"
+    },
+    {
+      "name": "Inkluz_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042252/spirits/fxwzgwvjldkzhsw2ju20.gif"
+    },
+    {
+      "name": "Inkluz_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042253/spirits/idmjyxurjjrnd6i4rsbr.gif"
+    },
+    {
+      "name": "Inkluz_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042256/spirits/wnregbcpyy8vcjyliuly.gif"
+    },
+    {
+      "name": "Inkluz_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042258/spirits/vihegyyioywiskuyhmk0.gif"
+    },
+    {
+      "name": "Inkluz_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042260/spirits/e2s8zz0t7araewm5wdni.gif"
+    },
+    {
+      "name": "Inkluz_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042262/spirits/ce7gvtmffknqekawwuuo.gif"
+    },
+    {
+      "name": "Inkluz_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042264/spirits/numeaabieyy4hpgorreu.gif"
+    },
+    {
+      "name": "Inkluz_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042266/spirits/nk37udzi3p2exwdwfh4w.gif"
+    },
+    {
+      "name": "Kłobuk_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042268/spirits/jpmquokwyspowa3dlrqm.gif"
+    },
+    {
+      "name": "Kłobuk_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042269/spirits/xiamounqakbid2s049ce.gif"
+    },
+    {
+      "name": "Kłobuk_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042272/spirits/ghg0xzpcphoms4iojenv.gif"
+    },
+    {
+      "name": "Kłobuk_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042274/spirits/ixikp9rzf9pkycok2o9e.gif"
+    },
+    {
+      "name": "Kłobuk_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042275/spirits/pnp8jgsgk1motzcqsxst.gif"
+    },
+    {
+      "name": "Kłobuk_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042277/spirits/yjh4jqoovtxac7m6k7km.gif"
+    },
+    {
+      "name": "Kłobuk_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042279/spirits/oaemga8ki2oyjqacpacn.gif"
+    },
+    {
+      "name": "Kłobuk_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042281/spirits/iph2efvnfej3b9i4pdzw.gif"
+    },
+    {
+      "name": "Kłobuk_purple_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042283/spirits/srkpvrr0db6fjxgkx2xv.gif"
+    },
+    {
+      "name": "Kłobuk_purple_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042285/spirits/jpwfjdshe5c0falt2hvg.gif"
+    },
+    {
+      "name": "Kłobuk_purple_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042287/spirits/yszl8r801z1x5aofhm2l.gif"
+    },
+    {
+      "name": "Kłobuk_purple_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042289/spirits/gggzkcudiqkknssvr2cl.gif"
+    },
+    {
+      "name": "Kłobuk_yellow_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042292/spirits/y8pyytq3x4e7pfucixse.gif"
+    },
+    {
+      "name": "Kłobuk_yellow_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042294/spirits/zkdgmn15iqnq2fy43gzt.gif"
+    },
+    {
+      "name": "Kłobuk_yellow_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042296/spirits/kmkvs3thq9npogff6pxc.gif"
+    },
+    {
+      "name": "Kłobuk_yellow_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042298/spirits/fxdbmfiu9z5rkaont0gt.gif"
+    },
+    {
+      "name": "Nocnica_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042299/spirits/pvcipvl7efjdggkynrd3.gif"
+    },
+    {
+      "name": "Nocnica_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042301/spirits/f3xes7hmnpqnvtyfkzzh.gif"
+    },
+    {
+      "name": "Nocnica_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042302/spirits/fowj7gkaixivf0lnqryg.gif"
+    },
+    {
+      "name": "Nocnica_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042304/spirits/kyag3lf3ssatqhpeux94.gif"
+    },
+    {
+      "name": "Nocnica_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042306/spirits/rlk3ftli4vnxellpsbcd.gif"
+    },
+    {
+      "name": "Nocnica_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042307/spirits/s87c7pmhzz50rtrwymhr.gif"
+    },
+    {
+      "name": "Nocnica_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042309/spirits/h5gqhuidjwucxhhxypom.gif"
+    },
+    {
+      "name": "Nocnica_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042311/spirits/dui0m9of6lzoumquy2sq.gif"
+    },
+    {
+      "name": "Nocnica_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042312/spirits/w4caqs6ymymhvjphe9pw.gif"
+    },
+    {
+      "name": "Nocnica_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042314/spirits/hdstbrksv651s5hb7czp.gif"
+    },
+    {
+      "name": "Nocnica_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042316/spirits/biiuudiirv5ln12lqv0w.gif"
+    },
+    {
+      "name": "Nocnica_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042317/spirits/jqfjm3juss3rytlej1x3.gif"
+    },
+    {
+      "name": "Nocnica_yellow_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042319/spirits/ldaezkccxviw4zswsccj.gif"
+    },
+    {
+      "name": "Nocnica_yellow_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042320/spirits/yvig5rvqi4maapjeieuu.gif"
+    },
+    {
+      "name": "Nocnica_yellow_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042322/spirits/qehozpfdt4aesslhqlhc.gif"
+    },
+    {
+      "name": "Nocnica_yellow_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042325/spirits/miab8om9q5zmwzxq9slt.gif"
+    },
+    {
+      "name": "Plonek_black_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042326/spirits/y3ilhkxof33mpjuudsnx.gif"
+    },
+    {
+      "name": "Plonek_black_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042328/spirits/petvg6nyln3q7zd0cbjk.gif"
+    },
+    {
+      "name": "Plonek_black_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042330/spirits/ysddajktvhuqo7bwyo1u.gif"
+    },
+    {
+      "name": "Plonek_black_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042332/spirits/wbuzdnq7ynbvpcwyzjvk.gif"
+    },
+    {
+      "name": "Plonek_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042333/spirits/zd2t44ndvennn3cuxc3u.gif"
+    },
+    {
+      "name": "Plonek_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042335/spirits/qbwepc5cxaq6ly1o27rx.gif"
+    },
+    {
+      "name": "Plonek_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042337/spirits/fcecr4uj3pdnjwkonorn.gif"
+    },
+    {
+      "name": "Plonek_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042338/spirits/svgviwcptjlyufjn49zq.gif"
+    },
+    {
+      "name": "Plonek_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042340/spirits/ukdmlxaauqon72lejsnt.gif"
+    },
+    {
+      "name": "Plonek_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042341/spirits/k4jykgapzfyoztdejy8h.gif"
+    },
+    {
+      "name": "Plonek_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042343/spirits/euan4mzyoxqtcoxpholb.gif"
+    },
+    {
+      "name": "Plonek_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042345/spirits/nawaexmquthohmwgkk1w.gif"
+    },
+    {
+      "name": "Plonek_white_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042346/spirits/h5mez1kzy4gk3uwplbu5.gif"
+    },
+    {
+      "name": "Plonek_white_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042348/spirits/se0vdl8rwturljpuiqeb.gif"
+    },
+    {
+      "name": "Plonek_white_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042350/spirits/y55aeheliwy7vmhwjjtu.gif"
+    },
+    {
+      "name": "Plonek_white_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042352/spirits/aomadlavcn26q1ugfbtt.gif"
+    },
+    {
+      "name": "Przestęp_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042353/spirits/afaygi7fpbcwbdenrkar.gif"
+    },
+    {
+      "name": "Przestęp_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042355/spirits/aa2zt4stuzwpbpr4wb8e.gif"
+    },
+    {
+      "name": "Przestęp_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042361/spirits/honnh7nbhaucr42bbhxc.gif"
+    },
+    {
+      "name": "Przestęp_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042364/spirits/u637bbdlbn9nfhfgmwja.gif"
+    },
+    {
+      "name": "Przestęp_orange_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042365/spirits/av0ayzwqkuuufwspv8ql.gif"
+    },
+    {
+      "name": "Przestęp_orange_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042369/spirits/s0pmjxcvzsmdrtlvnt3o.gif"
+    },
+    {
+      "name": "Przestęp_orange_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042371/spirits/nr9ldujfys4xfwmbjkmd.gif"
+    },
+    {
+      "name": "Przestęp_orange_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042373/spirits/ldivwld1avp0doedsiiq.gif"
+    },
+    {
+      "name": "Przestęp_pink_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042376/spirits/kob93ki3rqlroqtx4en1.gif"
+    },
+    {
+      "name": "Przestęp_pink_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042378/spirits/ud0qlbmeyjtjxiaopeyn.gif"
+    },
+    {
+      "name": "Przestęp_pink_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042381/spirits/jo9ntijoy7lcldug7dji.gif"
+    },
+    {
+      "name": "Przestęp_pink_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042383/spirits/qblfqymwm1sbdluo73mb.gif"
+    },
+    {
+      "name": "Przestęp_purple_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042385/spirits/fmgjvp5e8mpb8bzkxgay.gif"
+    },
+    {
+      "name": "Przestęp_purple_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042387/spirits/ubetr0ppryndbeiqyerw.gif"
+    },
+    {
+      "name": "Przestęp_purple_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042389/spirits/earoodwxrgggtz5gmdw2.gif"
+    },
+    {
+      "name": "Przestęp_purple_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042391/spirits/zjesr7icdi0y23qxcaxl.gif"
+    },
+    {
+      "name": "Płanetnik_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042393/spirits/xjdapyzs3fsbemnemd8b.gif"
+    },
+    {
+      "name": "Płanetnik_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042395/spirits/xmtchewd9rwfnagpbrjb.gif"
+    },
+    {
+      "name": "Płanetnik_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042397/spirits/exwtslz5ia0jqv0pfbwi.gif"
+    },
+    {
+      "name": "Płanetnik_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042399/spirits/wds19mgk2roqha2ov6gi.gif"
+    },
+    {
+      "name": "Płanetnik_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042401/spirits/szxmzalo6noezip0ia5e.gif"
+    },
+    {
+      "name": "Płanetnik_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042403/spirits/pp7x6eurxl2kwtwz9rfq.gif"
+    },
+    {
+      "name": "Płanetnik_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042405/spirits/cgkwq04wfsvfwlhhqvww.gif"
+    },
+    {
+      "name": "Płanetnik_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042406/spirits/qhm5tkbtqtjbj44egx4w.gif"
+    },
+    {
+      "name": "Płanetnik_orange_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042408/spirits/ewr5su9ew4hob2al8bcw.gif"
+    },
+    {
+      "name": "Płanetnik_orange_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042410/spirits/ngolf5vdmzri1wucgx0q.gif"
+    },
+    {
+      "name": "Płanetnik_orange_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042412/spirits/kncns6vczdqlluxcryco.gif"
+    },
+    {
+      "name": "Płanetnik_orange_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042413/spirits/ttxfcjntzjyg8ylvu0i7.gif"
+    },
+    {
+      "name": "Płanetnik_purple_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042415/spirits/d1uslavx2mbliyv1a54k.gif"
+    },
+    {
+      "name": "Płanetnik_purple_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042417/spirits/rnnvhkxarq7btmo8m4tt.gif"
+    },
+    {
+      "name": "Płanetnik_purple_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042419/spirits/hzdtmgb0ajnp097dodl6.gif"
+    },
+    {
+      "name": "Płanetnik_purple_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042421/spirits/t4f4fvvo4qqy14gm3m1n.gif"
+    },
+    {
+      "name": "Skarbnik_black_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042422/spirits/sb5hmmp8bzznh6agzafb.gif"
+    },
+    {
+      "name": "Skarbnik_black_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042424/spirits/qgj5bwbjpmwsndturvns.gif"
+    },
+    {
+      "name": "Skarbnik_black_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042425/spirits/wur6wpqgsr38zanlg093.gif"
+    },
+    {
+      "name": "Skarbnik_black_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042427/spirits/cmofcejhhcbohdr61h4a.gif"
+    },
+    {
+      "name": "Skarbnik_brown_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042428/spirits/fteuxvwca5djivhhcjvl.gif"
+    },
+    {
+      "name": "Skarbnik_brown_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042430/spirits/kiarf08sybfmd4c0csdr.gif"
+    },
+    {
+      "name": "Skarbnik_brown_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042432/spirits/rbpni0c02aa1rys34ax2.gif"
+    },
+    {
+      "name": "Skarbnik_brown_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042434/spirits/grtrvszoyeigwio1y8mw.gif"
+    },
+    {
+      "name": "Skarbnik_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042435/spirits/ndvelos19urizcyaaqjt.gif"
+    },
+    {
+      "name": "Skarbnik_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042437/spirits/efhg6nrybvbh0819gtb7.gif"
+    },
+    {
+      "name": "Skarbnik_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042439/spirits/suoqkhjkjo7r47pmwzhd.gif"
+    },
+    {
+      "name": "Skarbnik_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042440/spirits/nyikl7ozgzrrzeit0s5t.gif"
+    },
+    {
+      "name": "Skarbnik_whie_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042441/spirits/tghivlmrrfkvko57rrrh.gif"
+    },
+    {
+      "name": "Skarbnik_whie_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042443/spirits/cmms4ohrkwdgjhzljnlu.gif"
+    },
+    {
+      "name": "Skarbnik_whie_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042445/spirits/vjccw5uq6bulueq8turg.gif"
+    },
+    {
+      "name": "Skarbnik_whie_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042446/spirits/z33se77hbnmvuh2nzmhm.gif"
+    },
+    {
+      "name": "Trach_blue_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042448/spirits/yglbemloxxynfdutys54.gif"
+    },
+    {
+      "name": "Trach_blue_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042449/spirits/fjxffokxwctkpstrymgg.gif"
+    },
+    {
+      "name": "Trach_blue_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042451/spirits/xjkhg1ppf8znjii4mymn.gif"
+    },
+    {
+      "name": "Trach_blue_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042453/spirits/hpoxz4fz0xkyxr0zqyio.gif"
+    },
+    {
+      "name": "Trach_green_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042455/spirits/dbi02vpza4xrlnlnstnh.gif"
+    },
+    {
+      "name": "Trach_green_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042456/spirits/wdftwkk1l5j5ooupvwnb.gif"
+    },
+    {
+      "name": "Trach_green_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042458/spirits/ycoujloutslb5rjplp76.gif"
+    },
+    {
+      "name": "Trach_green_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042460/spirits/skxulk0c6okebvpofwxy.gif"
+    },
+    {
+      "name": "Trach_grey_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042462/spirits/fq1f6ypnglv6wwbybc4o.gif"
+    },
+    {
+      "name": "Trach_grey_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042463/spirits/m6fs60kpcz7uxhwxeqvx.gif"
+    },
+    {
+      "name": "Trach_grey_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042465/spirits/rflff2misdubyymv2w8a.gif"
+    },
+    {
+      "name": "Trach_grey_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042467/spirits/uujapcwmmera3zswxugy.gif"
+    },
+    {
+      "name": "Trach_red_feathers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042469/spirits/tygbvgmeeylujazcdbvv.gif"
+    },
+    {
+      "name": "Trach_red_flowers.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042470/spirits/vsuwqdrnhvd42uh3djmp.gif"
+    },
+    {
+      "name": "Trach_red_mushrooms.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042472/spirits/muszjwgzzxilj6rmbbzu.gif"
+    },
+    {
+      "name": "Trach_red_trees.gif",
+      "url": "https://res.cloudinary.com/dwjskgy4c/image/upload/v1747042473/spirits/v5uxpbabwsccrta6dbiw.gif"
+    }
+  ]
+}

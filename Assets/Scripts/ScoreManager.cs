@@ -15,6 +15,8 @@ public class ScoreManager
     private Spirit[] earthSpirits;
     private Spirit[] waterSpirits;
 
+	private int runNumber = 0;
+
 	#nullable enable
 	private Spirit? _currentSpirit;
 	#nullable disable
@@ -33,6 +35,28 @@ public class ScoreManager
     	}
  	}
 	public string CurrentColor { get; private set; }
+	
+	public string FrameName {get; private set;}
+	
+	public void SetColor(string color) 
+	{
+		CurrentColor = color;
+	}
+
+	public string GetColor()
+	{
+		return CurrentColor;
+	}
+
+	public void SetFrame(string frameName)
+	{
+		FrameName = frameName;
+	}
+
+	public string GetFrame()
+	{
+		return FrameName;
+	}
 
     public void Start()
     {
@@ -48,18 +72,20 @@ public class ScoreManager
         airScore += airPoints;
     }
 
-    private void ResetPoints()
+    public void ResetPoints()
     {
         fireScore = 0;
         waterScore = 0;
         earthScore = 0;
         airScore = 0;
 		CurrentColor = "";
+		FrameName = "";
 		CurrentSpirit = null;
     }
 
     public void CalculateSpirit()
     {
+		Debug.Log($"Run number: {runNumber}");
         Debug.Log($"RESULT: Fire: {fireScore}, Water: {waterScore}, Earth: {earthScore}, Air: {airScore}");
 
         int maxScore = Mathf.Max(fireScore, waterScore, earthScore, airScore);
@@ -112,22 +138,21 @@ public class ScoreManager
         }
 
         int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
-        // CurrentSpirit = matchingSpirits[randomIndex];
-		CurrentSpirit = earthSpirits[3];
+		
+		CurrentSpirit = matchingSpirits[randomIndex];
+		Debug.Log($"Spirit: {CurrentSpirit.Name}");
+		runNumber += 1;
 		return;
     }
-	
-	public void SetColor(string color) 
-	{
-		CurrentColor = color;
-	}
 
 	public string GetFileName(string spiritName)
 	{
-		return $"Spirits/{spiritName}/{CurrentColor}";
-	}
+		Debug.Log($"Spirit name: {spiritName}, color: {CurrentColor}, frame: {FrameName}");
+		// return $"Assets/Resources/Spirits/{spiritName}_{CurrentColor}_{FrameName}.webm";
+		return $"{spiritName}_{CurrentColor}_{FrameName}";
+	}	
 	
-    private void LoadSpirits()
+    public void LoadSpirits()
     {
 		TextAsset jsonText = Resources.Load<TextAsset>("spirits");
 		SpiritList wrapper = JsonUtility.FromJson<SpiritList>(jsonText.text);

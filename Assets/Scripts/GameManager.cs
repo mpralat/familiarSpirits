@@ -29,9 +29,6 @@ public class GameManager : MonoBehaviour
     public Image resultImage;
     public TextMeshProUGUI resultText;
     public RawImage qrCodeImage;
-
-    public VideoPlayer videoPlayer;
-    public RawImage videoRawImage;
     
     private int currentQuestionIndex = 0;
     private ScoreManager scoreManager;
@@ -172,26 +169,7 @@ public class GameManager : MonoBehaviour
 		string gifUrl = linkManager.GetUrlByName($"{fileName}.gif");
 
 		GenerateQRCode(gifUrl);
-
-        string videoFilePath = $"Assets/Resources/Spirits/{fileName}.webm";
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "file://" + videoFilePath;
-
-        videoPlayer.Prepare();
-        videoPlayer.prepareCompleted += (source) =>
-        {
-            videoRawImage.texture = videoPlayer.texture;
-            videoPlayer.Play();
-        };
-		// LOOP
-        videoPlayer.loopPointReached += OnLoopPointReached;
-
-    }
-    
-    void OnLoopPointReached(VideoPlayer vp)
-    {
-        vp.frame = 0;  // Reset to the first frame
-        vp.Play();  // Restart the video
+		resultImage.sprite = Resources.Load<Sprite>($"Spirits/{fileName}");
     }
 
 	void GenerateQRCode(string text)

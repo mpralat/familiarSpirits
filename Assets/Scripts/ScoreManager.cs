@@ -138,23 +138,6 @@ public class ScoreManager
         }
 
         int randomIndex = UnityEngine.Random.Range(0, matchingSpirits.Length);
-        
-
-		// UNNCOMMENT IF YOU WANT TO GO THROUGH ALL SPIRITS
-		// First go through all spirits -- comment out if you don't want to run in test mode
-
-		// Debug.Log("Running test run...");
-		// if (runNumber < 4) {
-		// 	CurrentSpirit = waterSpirits[runNumber];
-		// } else if (runNumber < 9) {
-		// 	CurrentSpirit = fireSpirits[runNumber - 4];
-		// } else if (runNumber < 13) {
-		// 	CurrentSpirit = airSpirits[runNumber - 9];
-		// } else if (runNumber < 18) {
-		// 	CurrentSpirit = earthSpirits[runNumber - 13];
-		// } else {
-		// 	CurrentSpirit = matchingSpirits[randomIndex];	
-		// }
 		
 		CurrentSpirit = matchingSpirits[randomIndex];
 		Debug.Log($"Spirit: {CurrentSpirit.Name}");

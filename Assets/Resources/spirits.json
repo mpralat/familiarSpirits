@@ -389,20 +389,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Pomarańczowy",
+            "color": "orange"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Różowy",
+            "color": "pink"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Fioletowy",
+            "color": "purple"
           }
         ]
       }

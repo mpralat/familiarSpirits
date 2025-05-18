@@ -38,3 +38,28 @@ public class ColorAnswer
 	public string color;
 }
 
+[System.Serializable]
+public class FrameAnswer
+{
+	public string text;
+	public string frameName;
+
+	public FrameAnswer(string text, string frameName)
+	{
+		this.text = text;
+		this.frameName = frameName;
+	}
+}
+
+[System.Serializable]
+public class FrameQuestion
+{
+	public string text;
+	public FrameAnswer[] answers;
+
+	public FrameQuestion(string text, FrameAnswer[] answers)
+	{
+		this.text = text;
+		this.answers = answers;
+	}
+}

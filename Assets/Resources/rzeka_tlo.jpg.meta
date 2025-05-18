@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9b2313190b50b47f19c7bca0000a059a
+guid: 7a4c8c2d3fb0d465a8821288b535ba39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7904825034627307559
-    second: 491025706_650561737792261_1828129060941530783_n_0
+      213: 8487649766432791693
+    second: rzeka_tlo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 491025706_650561737792261_1828129060941530783_n_0
+      name: rzeka_tlo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 2048
-        height: 2048
+        height: 2956
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7285398cc7493bd60800000000000000
-      internalID: 7904825034627307559
+      spriteID: d8c572a3e703ac570800000000000000
+      internalID: 8487649766432791693
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      491025706_650561737792261_1828129060941530783_n_0: 7904825034627307559
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

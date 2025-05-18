@@ -12,8 +12,7 @@
         "answers": [
           {
             "text": "Czarny",
-            "color": "black",
-            "url": "bogus_url"
+            "color": "black"
           },
           {
             "text": "Brązowy",
@@ -111,8 +110,8 @@
             "color": "white"
           },
           {
-            "text": "Brąz",
-            "color": "brown"
+            "text": "Pomarańczowy",
+            "color": "orange"
           }
         ]
       }
@@ -306,8 +305,8 @@
             "color": "brown"
           },
           {
-            "text": "Brązowy",
-            "color": "brown"
+            "text": "Niebieski",
+            "color": "blue"
           },
           {
             "text": "Zielony",
@@ -360,8 +359,8 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Pomarańczowy",
+            "color": "orange"
           },
           {
             "text": "Niebieski",
@@ -447,20 +446,20 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Brązowy",
+            "color": "brown"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Czarny",
+            "color": "black"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Biały",
+            "color": "white"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Żółty",
+            "color": "yellow"
           }
         ]
       }
@@ -484,8 +483,8 @@
             "color": "brown"
           },
           {
-            "text": "Zielony",
-            "color": "green"
+            "text": "Szary",
+            "color": "grey"
           },
           {
             "text": "Biały",
@@ -505,8 +504,8 @@
         "text": "Jaki kolor dla tego chowańca?",
         "answers": [
           {
-            "text": "Czerwony",
-            "color": "red"
+            "text": "Fioletowy",
+            "color": "purple"
           },
           {
             "text": "Niebieski",

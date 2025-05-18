@@ -8,22 +8,23 @@
       "MaxPoints": 6,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Dopadł Cię głód, ale na szczęście masz przy sobie przekąski - co zjadasz?",
         "answers": [
           {
-            "text": "Czarny",
-            "color": "black"
+            "text": "Unikam słodyczy, mam przygotowane zdrowe kanapki, które nasycą mnie na długo.",
+            "color": "black",
+            "url": "bogus_url"
           },
           {
-            "text": "Brązowy",
+            "text": "Ciasto czekoladowe z truskawkami.",
             "color": "brown"
           },
           {
-            "text": "Szary",
+            "text": "Kolorowe landrynki.",
             "color": "grey"
           },
           {
-            "text": "Biały",
+            "text": "Białą czekoladę z pistacjami.",
             "color": "white"
           }
         ]
@@ -37,18 +38,18 @@
       "MaxPoints": 13,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Widzisz, jak znajoma staruszka pierze pościel. Zaczynasz rozmyślać o swoim wymarzonym miejscu noclegowym, którym jest:",
         "answers": [
           {
-            "text": "Szary",
+            "text": "Własne łóżko! Tylko w nim mogę się wyspać.",
             "color": "grey"
           },
           {
-            "text": "Niebieski",
+            "text": "Wysoka wieża zamkowa z oknami wychodzącymi na morze.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Miękkie posłanie w bibliotece pełnej starych tomów i ciepłego światła świec.",
             "color": "green"
           },
           {
@@ -66,22 +67,22 @@
       "MaxPoints": 10,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Podczas każdej podróży przez pole, zawsze zbierasz po drodze ten konkretny rodzaj kwiatów. Wiesz, że przynoszą Ci szczęście.",
         "answers": [
           {
-            "text": "Różowy",
+            "text": "Uwielbiam kwiaty jabłoni! Zawsze wplatam je w warkocz.",
             "color": "pink"
           },
           {
-            "text": "Pomarańczowy",
+            "text": "Kwiaty zbyt szybko więdną na wietrze. Wole upleść wianek ze zbożowych kłosów.",
             "color": "orange"
           },
           {
-            "text": "Zielony",
+            "text": "Niezapominajki są przepiękne. Zawsze cieszę się na ich widok.",
             "color": "green"
           },
           {
-            "text": "Fioletowy",
+            "text": "Fiołki mają niesamowity kolor.",
             "color": "purple"
           }
         ]
@@ -95,23 +96,23 @@
       "MaxPoints": 8,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Podczas regularnych porządków zamiatasz jak zawsze kąty swojego domostwa. Nagle zauważasz, że w kącie siedzi smutna myszka, która zgubiła sznurek od swojego patyka. Pomagasz jej i dajesz fragment jednego z czterech. Jaki kolor wybierzesz?",
         "answers": [
           {
-            "text": "Szary",
+            "text": "Brązowy z nutą różu, delikatny i jednocześnie mocny.",
             "color": "grey"
           },
           {
-            "text": "Niebieski",
+            "text": "Błękitny jest taki marzycielski, a marzenia trzeba mieć.",
             "color": "blue"
           },
           {
-            "text": "Biały",
+            "text": "Czerwona wstążka to tradycja. Jest elegancka i szykowna.",
             "color": "white"
           },
           {
-            "text": "Pomarańczowy",
-            "color": "orange"
+            "text": "Zielony będzie świetny, taki naturalny!",
+            "color": "brown"
           }
         ]
       }
@@ -124,22 +125,22 @@
       "MaxPoints": 7,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Odpoczywasz w karczmie po długim dniu ciężkiej pracy, gdy bard zaczyna grać Twój ulubiony rodzaj muzyki. Co słyszysz?",
         "answers": [
           {
-            "text": "Czerwony",
+            "text": "Epicką pieśń o dzielnych herosach z dalekich krain.",
             "color": "red"
           },
           {
-            "text": "Brązowy",
+            "text": "Powolną i relaksującą melodię, przypominającą kołysankę.",
             "color": "brown"
           },
           {
-            "text": "Zielony",
+            "text": "Skoczne takty ludowego tańca, napełniające mnie energią.",
             "color": "green"
           },
           {
-            "text": "Różowy",
+            "text": "Chwytającą za serce balladę o tragicznej miłości.",
             "color": "pink"
           }
         ]
@@ -153,22 +154,22 @@
       "MaxPoints": 11,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Twój żywot został przedwcześnie zakończony, ale Twój duch będzie mścił się na jednej z wybranych osób:",
         "answers": [
           {
-            "text": "Różowy",
+            "text": "Czarodziejce, która rzuciła na mnie klątwę samotności.",
             "color": "pink"
           },
           {
-            "text": "Szary",
+            "text": "Gajowym, który “przypadkiem” postrzelił mojego psa.",
             "color": "grey"
           },
           {
-            "text": "Zielony",
+            "text": "Rybaku, który odmówił mi jedzenia, mimo udzielonej zapłaty.",
             "color": "green"
           },
           {
-            "text": "Żółty",
+            "text": "Kapłanie, który mnie ekskomunikował i odmówił pogrzebu.",
             "color": "yellow"
           }
         ]
@@ -182,22 +183,22 @@
       "MaxPoints": 5,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Przechadzając się po lesie, znajdujesz kota – a może to on odnalazł Ciebie. Wydaje się on być niesamowicie inteligentnym stworzeniem, a jego oczy przypominają Ci bardziej człowieka, niż zwierzę. Kot siada na Twoim ramieniu, jak gdyby był tam od zawsze. Jak wygląda?",
         "answers": [
           {
-            "text": "Czarny",
+            "text": "Kocur o długiej, jedwabistej sierści. Wygląda na bardziej dzikiego, niż sugeruje jego brak strachu przed kontaktem.",
             "color": "black"
           },
           {
-            "text": "Brązowy",
+            "text": "Wydaje się niemal złoty w odpowiednim świetle.",
             "color": "brown"
           },
           {
-            "text": "Zielony",
+            "text": "Futro kota jest tak ciemne, że niemal zlewa się z otaczającym mnie zacienionym lasem.",
             "color": "green"
           },
           {
-            "text": "Fioletowy",
+            "text": "Szary kot, byłby niemalże zwyczajny w wyglądzie, gdyby nie jego fantastycznie zakręcone, błyszczące wąsiki.",
             "color": "purple"
           }
         ]
@@ -240,22 +241,22 @@
       "MaxPoints": 9,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Zaklinasz magiczny przedmiot, który zapewni Ci specjalną moc, lecz czerpać ją będzie z Twojego otoczenia. Co wybierzesz?",
         "answers": [
           {
-            "text": "Czarny",
+            "text": "Nikt nie może mnie zranić, ale każdy, kto mnie dotknie, dostanie martwicy kończyn.p",
             "color": "black"
           },
           {
-            "text": "Niebieski",
+            "text": "Mam idealną pamięć, ale ludzie dookoła dostają demencji.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Nie starzeję się, ale tam, gdzie pójdę, natura obumiera.",
             "color": "green"
           },
           {
-            "text": "Brąz",
+            "text": "Potrafię się idealnie kamuflować, ale nikt nie może rozpoznać mojej twarzy ani głosu.",
             "color": "brown"
           }
         ]
@@ -269,22 +270,22 @@
       "MaxPoints": 10,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Udało Ci się włamać do skarbca wiedźmy. Jesteś w stanie zabrać tylko jedną rzecz i uciec, zanim jej sługi odkryją Twoją obecność. Co bierzesz?",
         "answers": [
           {
-            "text": "Czerwony",
+            "text": "Miecz o rękojeści zakończonej głową lwa o wściekle rubinowych oczach.",
             "color": "red"
           },
           {
-            "text": "Niebieski",
+            "text": "Amulet z kryształową kulą, wewnątrz której widoczne jest nocne niebo.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Szkatułkę w kształcie ludzkiej czaszki wypełnioną po brzegi złotymi monetami.",
             "color": "green"
           },
           {
-            "text": "Szary",
+            "text": "Grymuar oprawiony w łuskowatą skórę, zaskakująco zimny w dotyku.",
             "color": "grey"
           }
         ]
@@ -298,22 +299,22 @@
       "MaxPoints": 8,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Podchodzi do Ciebie postać przypominająca małą dziewczynkę. Mówi, że może Ci podarować jedną z rzeczy, które trzyma w sakiewce. Co wybierasz?",
         "answers": [
           {
-            "text": "Brązowy",
+            "text": "Jesienny liść, którego zjedzenie umożliwia zrozumienie mowy zwierząt.",
             "color": "brown"
           },
           {
-            "text": "Niebieski",
+            "text": "Naszyjnik z łusek, który pozwala oddychać pod wodą.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Ziołową maść kojącą każdy rodzaj bólu.",
             "color": "green"
           },
           {
-            "text": "Różowy",
+            "text": "Kryształ kwarcu, który świeci, gdy ktoś kłamie.",
             "color": "pink"
           }
         ]
@@ -327,22 +328,22 @@
       "MaxPoints": 6,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Przygotowujesz sobie relaksującą kąpiel, jakie dodatki zawiera?",
         "answers": [
           {
-            "text": "Czerwony",
+            "text": "Płatki róż, dodają romantyzmu.",
             "color": "red"
           },
           {
-            "text": "Niebieski",
+            "text": "Sól pozyskaną z morza, cudownie oczyszcza skórę.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Błoto. Kąpiele błotne chronią od chorób.",
             "color": "green"
           },
           {
-            "text": "Różowy",
+            "text": "Olejek z lawendy i hibiskusa, uspokaja i pomaga zasnąć.",
             "color": "pink"
           }
         ]
@@ -356,22 +357,22 @@
       "MaxPoints": 13,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Twoim ulubionym krajobrazem jest:",
         "answers": [
           {
-            "text": "Pomarańczowy",
-            "color": "orange"
+            "text": "Pola pszenicy skąpane w pięknym złocistym wieczornym słońcu.",
+            "color": "red"
           },
           {
-            "text": "Niebieski",
+            "text": "Widok podwórza w blasku jutrzenki.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Las, do którego wpadają oślepiające południowe promienie słońca.",
             "color": "green"
           },
           {
-            "text": "Fioletowy",
+            "text": "Jezioro, w którego tafli odbija się srebrzysty księżyc.",
             "color": "purple"
           }
         ]
@@ -385,22 +386,22 @@
       "MaxPoints": 5,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Nadeszła wiosna. Podczas wieczornych spacerów zachwycasz się otaczającym rozkwitem. Pragniesz przynieść część łąki do swojej chatki. Udajesz się więc na targ z myślą o zakupie nasion lub cebulek, które zasadzisz przed domem. Jakie wybierzesz?",
         "answers": [
           {
-            "text": "Pomarańczowy",
+            "text": "Nasiona aksamitki.",
             "color": "orange"
           },
           {
-            "text": "Różowy",
+            "text": "Cebulki lilii.",
             "color": "pink"
           },
           {
-            "text": "Zielony",
+            "text": "Zmieniam zdanie i sadzę szpinak, żeby go potem zjeść.",
             "color": "green"
           },
           {
-            "text": "Fioletowy",
+            "text": "Nasiona lawendy.",
             "color": "purple"
           }
         ]
@@ -414,22 +415,22 @@
       "MaxPoints": 7,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Nadszedł czas wielkich, wiosennych porządków, roboty jest co niemiara. Którą z prac domowych odkładasz na koniec?",
         "answers": [
           {
-            "text": "Brązowy",
+            "text": "Odkurzanie i mycie podłóg – nie ważne, jak się staram, zawsze umknie mi jakiś kąt.",
             "color": "brown"
           },
           {
-            "text": "Niebieski",
+            "text": "Mycie okien – to tortura dla moich ramion.",
             "color": "blue"
           },
           {
-            "text": "Zielony",
+            "text": "Sprzątanie podwórza – wiatr i deszcz zaraz i tak wszystko zepsują.",
             "color": "green"
           },
           {
-            "text": "Pomarańczowy",
+            "text": "Pranie i prasowanie – zawsze tonę w górze ubrań i pościeli.",
             "color": "orange"
           }
         ]
@@ -443,22 +444,22 @@
       "MaxPoints": 13,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Jest późny wieczór, siedzisz samotnie przy ogniu, gdy słyszysz ciche szmery ze spiżarni. Wstajesz, by sprawdzić, co to. Co zauważasz?",
         "answers": [
           {
-            "text": "Brązowy",
+            "text": "Ledwie widoczny ślad na drzwiach spiżarni, jakby ktoś tamtędy cicho przechodził chwilę wcześniej.",
             "color": "brown"
           },
           {
-            "text": "Czarny",
+            "text": "Poświatę odbijającą się w lustrze – jakby odbicie dawnego wspomnienia.",
             "color": "black"
           },
           {
-            "text": "Biały",
+            "text": "Drobną postać z rozwianą czupryną, krzątającą się przy worku mąki.",
             "color": "white"
           },
           {
-            "text": "Żółty",
+            "text": "Pulsującą kulkę światła znikającą między ziołami na półce.",
             "color": "yellow"
           }
         ]
@@ -472,22 +473,22 @@
       "MaxPoints": 11,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Odpoczywając przy jeziorze, w piasku trafiasz na zakopany kamień o niezwykłym wyglądzie. Co Cię w nim przyciąga?",
         "answers": [
           {
-            "text": "Czarny",
+            "text": "Wpatruję się w moją zdobycz, odnosząc wrażenie, że patrzę prosto w otchłań. Głębia, która wydaje się również obserwować mnie.",
             "color": "black"
           },
           {
-            "text": "Brązowy",
+            "text": "Kamień niemalże wtapia się w mokry piach. Wiele osób by go nie zauważyło, ale znajduję coś wyjątkowego w jego zwyczajności.",
             "color": "brown"
           },
           {
-            "text": "Szary",
-            "color": "grey"
+            "text": "Skarb natury ukryty w moich dłoniach, wszystkie kolory budzącego się do życia lasu zaklęte w jeden kamień.",
+            "color": "green"
           },
           {
-            "text": "Biały",
+            "text": "Zwykły kamień, chociaż jego kształt przypomina chmurę. Nie wiem, czy to złudzenie, ale niemalże czuję targający mną wiatr, jak gdyby przeniósł mnie w przestworza.",
             "color": "white"
           }
         ]
@@ -501,22 +502,22 @@
       "MaxPoints": 9,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "W trakcie powrotu do domu zaskoczyła Cię ulewa. Wystarczy kilka chwil i przemokniesz do suchej nitki. Co robisz?",
         "answers": [
           {
-            "text": "Fioletowy",
-            "color": "purple"
+            "text": "Biegnę do domu znajomego, który mieszka w pobliżu.",
+            "color": "red"
           },
           {
-            "text": "Niebieski",
+            "text": "Nie jestem z cukru, nie rozpuszczę się. Dzielnie idę dalej.",
             "color": "blue"
           },
           {
-            "text": "Żółty",
+            "text": "Szukam najbliższego zadaszenia i chowam się pod nim.",
             "color": "yellow"
           },
           {
-            "text": "Różowy",
+            "text": "Chowam się pod drzewem i obserwuję krople spływające po liściach.",
             "color": "pink"
           }
         ]

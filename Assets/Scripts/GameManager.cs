@@ -35,13 +35,13 @@ public class GameManager : MonoBehaviour
 	private UrlManager linkManager;
 
 	private FrameQuestion frameQuestion = new FrameQuestion(
-	text: "Jaka ramka?",
+	text: "Twoja wieś organizuje festyn na powitanie wiosny. Z tej okazji przygotowano cztery konkurencje, w jakich możesz się wykazać. W której z nich bierzesz udział?",
 	answers: new FrameAnswer[]
 	{
-		new FrameAnswer("Piórka", "feathers"),
-		new FrameAnswer("Drzewka", "trees"),
-		new FrameAnswer("Kwiatki", "flowers"),
-		new FrameAnswer("Grzybki", "mushrooms")
+		new FrameAnswer("Strzelanie z łuku do celu.", "feathers"),
+		new FrameAnswer("Gra nożowa.", "trees"),
+		new FrameAnswer("Konkurs robienia gaików.", "flowers"),
+		new FrameAnswer("Picie miodu na czas.", "mushrooms")
 	}
 );
     

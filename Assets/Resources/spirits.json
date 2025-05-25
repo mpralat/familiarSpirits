@@ -219,16 +219,16 @@
             "color": "red"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Pomarańczowy",
+            "color": "orange"
           },
           {
             "text": "Zielony",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Szary",
+            "color": "grey"
           }
         ]
       }

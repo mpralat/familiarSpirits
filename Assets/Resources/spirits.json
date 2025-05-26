@@ -212,23 +212,23 @@
       "MaxPoints": 13,
       "Description": "Lorem ipsum",
       "ColorQuestion": {
-        "text": "Jaki kolor dla tego chowańca?",
+        "text": "Twoje gospodarstwo został opanowany przez małe, wredne kreatury, które demolują dom, wyjadają zbiory i znęcają się nad zwierzętami. Nie odpuszczą, dopóki wszyscy mieszkańcy się nie wyprowadzą. Co robisz?",
         "answers": [
           {
-            "text": "Czerwony",
+            "text": "Biorę kosy i widły — z rodziną powinniśmy wygrać, ale pewnie ktoś zginie.",
             "color": "red"
           },
           {
-            "text": "Niebieski",
-            "color": "blue"
+            "text": "Zatruwam zbiory — może to je pokona, choć ciężko będzie przetrwać zimę.",
+            "color": "orange"
           },
           {
-            "text": "Zielony",
+            "text": "Wypuszczam zwierzęta, by pomogły je przepędzić — wątpię, by wiele z nich przetrwało.",
             "color": "green"
           },
           {
-            "text": "Inny",
-            "color": "other"
+            "text": "Rzucam wszystko i uciekam — a nuż ktoś się nad nami zlituje.",
+            "color": "grey"
           }
         ]
       }

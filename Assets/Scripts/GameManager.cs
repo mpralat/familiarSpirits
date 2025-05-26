@@ -9,6 +9,8 @@ using UnityEngine.Video;
 using ZXing;
 using ZXing.QrCode;
 using ZXing.Common;
+using System.Collections;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,8 +22,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI questionText;
     public Button[] answerButtons;
     public TextAsset questionsJson;
-
-    public TextMeshProUGUI questionCounter;
+    public CanvasGroup questionPanelGroup;
     private List<Question> questions;
     
     // Result Panel Stuff
@@ -29,11 +30,19 @@ public class GameManager : MonoBehaviour
     public Image resultImage;
     public TextMeshProUGUI resultText;
     public RawImage qrCodeImage;
+    public Image QRCodeBackground;
+    public Button ShowQRCodeButton;
+    public bool ShowQRCode = false;
     
     private int currentQuestionIndex = 0;
     private ScoreManager scoreManager;
 	private UrlManager linkManager;
-
+	bool isProcessing = false;
+	Color selectedColor       = new Color(0.77f, 0.61f, 0.28f, 1f);
+	Color defaultButtonColor  = new Color(0.85f, 0.78f, 0.65f, 1f);
+	Color defaultTextColor    = new Color(0.2f, 0.15f, 0.1f, 1f);
+	float deselectedAlpha     = 0.7f;
+	
 	private FrameQuestion frameQuestion = new FrameQuestion(
 	text: "Twoja wieś organizuje festyn na powitanie wiosny. Z tej okazji przygotowano cztery konkurencje, w jakich możesz się wykazać. W której z nich bierzesz udział?",
 	answers: new FrameAnswer[]
@@ -55,6 +64,11 @@ public class GameManager : MonoBehaviour
 			LoadQuestions();
 			this.linkManager = new UrlManager();
 			this.linkManager.LoadLinks();
+			ShowQRCodeButton.onClick.RemoveAllListeners();
+			ShowQRCodeButton.onClick.AddListener(() => ToggleQRCode());
+			resultImage.enabled = !ShowQRCode;
+			qrCodeImage.enabled = ShowQRCode;
+			QRCodeBackground.enabled = ShowQRCode;
 		}
         currentQuestionIndex = 0;
         resultPanel.SetActive(false);
@@ -78,85 +92,183 @@ public class GameManager : MonoBehaviour
 
     void ShowQuestion()
     {
-        if (currentQuestionIndex >= questions.Count)
-        {
-         	scoreManager.CalculateSpirit();
-			ShowColorQuestion();
-            return;
-        }
+	    if (currentQuestionIndex >= questions.Count)
+	    {
+		    scoreManager.CalculateSpirit();
+		    ShowColorQuestion();
+		    return;
+	    }
 
-        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
+	    isProcessing = false;
+	    for (int i = 0; i < answerButtons.Length; i++)
+		    answerButtons[i].interactable = true;
 
-        Question q = questions[currentQuestionIndex];
-        questionText.text = q.text;
-        
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            int index = i;
-            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = q.answers[index].text;
-            answerButtons[index].onClick.RemoveAllListeners();
-            answerButtons[index].onClick.AddListener(() => OnAnswerSelected(index));
-        }
+	    Question q = questions[currentQuestionIndex];
+	    questionText.text = q.text;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+		    int idx = i;
+		    var btn = answerButtons[i];
+		    btn.GetComponentInChildren<TextMeshProUGUI>().text = q.answers[idx].text;
+		    btn.onClick.RemoveAllListeners();
+		    btn.onClick.AddListener(() => OnAnswerSelected(idx));
+	    }
     }
 
     void OnAnswerSelected(int index)
     {
-        Answer answer = questions[currentQuestionIndex].answers[index];
-        scoreManager.AddPoints(answer.firePoints, answer.waterPoints, answer.earthPoints, answer.airPoints);
-        
-        currentQuestionIndex++;
-        ShowQuestion();
+	    if (isProcessing) return;
+	    isProcessing = true;
+
+	    var chosenBtn = answerButtons[index];
+	    chosenBtn.image.color = selectedColor;
+	    var chosenLabel = chosenBtn.GetComponentInChildren<TextMeshProUGUI>();
+	    chosenLabel.color = defaultButtonColor;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+		    if (i == index) continue;
+		    var btn = answerButtons[i];
+		    var c = btn.image.color;
+		    c.a = deselectedAlpha;
+		    btn.image.color = c;
+		    btn.interactable = false;
+	    }
+	    
+	    var answer = questions[currentQuestionIndex].answers[index];
+	    scoreManager.AddPoints(
+		    answer.firePoints,
+		    answer.waterPoints,
+		    answer.earthPoints,
+		    answer.airPoints
+	    );
+
+	    Invoke(nameof(NextQuestion), 0.4f);
+    }
+
+    void NextQuestion()
+    {
+	    foreach (var btn in answerButtons)
+	    {
+		    btn.image.color = defaultButtonColor;
+		    var lbl = btn.GetComponentInChildren<TextMeshProUGUI>();
+		    lbl.color = defaultTextColor;
+		    btn.transform.localScale = Vector3.one;
+		    btn.interactable = true;
+	    }
+
+	    currentQuestionIndex++;
+	    ShowQuestion();
+
+	    EventSystem.current.SetSelectedGameObject(null);
+
+	    var pointerData = new PointerEventData(EventSystem.current);
+	    foreach (var btn in answerButtons)
+	    {
+		    ExecuteEvents.Execute<IPointerExitHandler>(
+			    btn.gameObject,
+			    pointerData,
+			    ExecuteEvents.pointerExitHandler
+		    );
+	    }
+	    isProcessing = false;
     }
 
 	void ShowColorQuestion()
-    {
-        // last question should be a color question
-        questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
-        
-		Spirit spirit = scoreManager.CurrentSpirit;
-		
-		ColorQuestion colorQuestion = spirit.ColorQuestion;
-        questionText.text = colorQuestion.text;
-    
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            int index = i;
-            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = colorQuestion.answers[index].text;
-            answerButtons[index].onClick.RemoveAllListeners();
-            answerButtons[index].onClick.AddListener(() => OnColorAnswerSelected(index));
-        }
-		
-        return;
-    }
-    
-    void OnColorAnswerSelected(int index)
-    {
-		Spirit spirit = scoreManager.CurrentSpirit;
-		ColorAnswer answer = spirit.ColorQuestion.answers[index];
-        scoreManager.SetColor(answer.color);
-        Debug.Log($"Kolorek: {answer.color}");
-        ShowFrameQuestion();
-    }
-
-	void ShowFrameQuestion()
 	{
-		questionCounter.text = $"Pytanie {currentQuestionIndex + 1} z {questions.Count + 2}";
-        questionText.text = frameQuestion.text;
-    
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            int index = i;
-            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = frameQuestion.answers[index].text;
-            answerButtons[index].onClick.RemoveAllListeners();
-            answerButtons[index].onClick.AddListener(() => OnFrameAnswerSelected(index));
-        }
+	    // allow new selection
+	    isProcessing = false;
+
+	    foreach (var btn in answerButtons)
+	    {
+	        btn.interactable                     = true;
+	        btn.image.color                      = defaultButtonColor;
+	        btn.GetComponentInChildren<TextMeshProUGUI>().color = defaultTextColor;
+	    }
+	    
+	    Spirit spirit = scoreManager.CurrentSpirit;
+	    ColorQuestion colorQ = spirit.ColorQuestion;
+	    questionText.text = colorQ.text;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+	        int idx = i;
+	        var btn = answerButtons[i];
+	        btn.GetComponentInChildren<TextMeshProUGUI>().text = colorQ.answers[idx].text;
+	        btn.onClick.RemoveAllListeners();
+	        btn.onClick.AddListener(() => OnColorAnswerSelected(idx));
+	    }
+	}
+
+	void OnColorAnswerSelected(int index)
+	{
+	    if (isProcessing) return;
+	    isProcessing = true;
+
+	    var chosen = answerButtons[index];
+	    chosen.image.color = selectedColor;
+	    chosen.GetComponentInChildren<TextMeshProUGUI>().color = defaultButtonColor;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+	        if (i == index) continue;
+	        var b = answerButtons[i];
+	        var c = b.image.color;
+	        c.a = deselectedAlpha;
+	        b.image.color = c;
+	        b.interactable = false;
+	    }
+
+	    var answer = scoreManager.CurrentSpirit.ColorQuestion.answers[index];
+	    scoreManager.SetColor(answer.color);
+
+	    Invoke(nameof(ShowFrameQuestion), 0.4f);
+	}
+
+	void ShowFrameQuestion() 
+	{
+	    isProcessing = false;
+	    foreach (var btn in answerButtons)
+	    {
+	        btn.interactable = true;
+	        btn.image.color = defaultButtonColor;
+	        btn.GetComponentInChildren<TextMeshProUGUI>().color = defaultTextColor;
+	    }
+	    questionText.text = frameQuestion.text;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+	        int idx = i;
+	        var btn = answerButtons[i];
+	        btn.GetComponentInChildren<TextMeshProUGUI>().text = frameQuestion.answers[idx].text;
+	        btn.onClick.RemoveAllListeners();
+	        btn.onClick.AddListener(() => OnFrameAnswerSelected(idx));
+	    }
 	}
 
 	void OnFrameAnswerSelected(int index)
-    {
-		scoreManager.SetFrame(frameQuestion.answers[index].frameName);
-        ShowResult();
-    }
+	{
+	    if (isProcessing) return;
+	    isProcessing = true;
+
+	    var chosen = answerButtons[index];
+	    chosen.image.color = selectedColor;
+	    chosen.GetComponentInChildren<TextMeshProUGUI>().color = defaultButtonColor;
+
+	    for (int i = 0; i < answerButtons.Length; i++)
+	    {
+	        if (i == index) continue;
+	        var b = answerButtons[i];
+	        var c = b.image.color;
+	        c.a = deselectedAlpha;
+	        b.image.color = c;
+	        b.interactable = false;
+	    }
+
+	    scoreManager.SetFrame(frameQuestion.answers[index].frameName);
+	    Invoke(nameof(ShowResult), 0.4f);
+	}
 
     void ShowResult()
     {	
@@ -195,5 +307,16 @@ public class GameManager : MonoBehaviour
     public void ResetGame()
     {
         Start();
+    }
+
+    public void ToggleQRCode()
+    {
+	    ShowQRCode = !ShowQRCode;
+	    resultImage.enabled = !ShowQRCode;
+	    qrCodeImage.enabled = ShowQRCode;
+	    QRCodeBackground.enabled = ShowQRCode;
+
+	    ShowQRCodeButton.GetComponentInChildren<TextMeshProUGUI>().text =
+		    ShowQRCode ? "Pokaż Chowańca" : "Zabierz Chowańca ze sobą";
     }
 }
